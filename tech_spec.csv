@@ -1,0 +1,261 @@
+University;Theme;Service;Tool;Description;Importance
+UniGe;Application;Application for international mobility ;Dreamapply;;#N/A
+UCA;Application;Application for international mobility ;MoveOn ;;#N/A
+TUKE;Application;Application for international mobility ;ePrihlaska;https://eprihlaska.tuke.sk;#N/A
+MCI;Authentication & Identities;Active directory;Active Directory;On-site;#N/A
+MCI;Authentication & Identities;CRM;MCI-Designer;"""In-house web-apps
+Self-management for personal information""";#N/A
+MCI;Authentication & Identities;Federated Identity Provider;Shibboleth-IDP;Authentication & Identities to MCI services;#N/A
+MCI;Authentication & Identities;Federated Service Provider;Shibboleth SP;"""
+- Notice : standard authent for some services""";#N/A
+UniGe;Authentication & Identities;Federated Identity Provider;IDEM/eduGAIN;;#N/A
+UniGe;Authentication & Identities;LDAP directory;LDAP;"""To store username, pwd, etc.
+Used for pwd validation for example""";Core
+UniGe;Authentication & Identities;Active directory;Azure Active Directory;;#N/A
+UniGe;Authentication & Identities;Digital identity system;SPID;Only for italian citizen;#N/A
+UniGe;Authentication & Identities;Federated Service Provider;Shibboleth SP;;#N/A
+UniGe;Authentication & Identities;SSO Authentication;SSO - OneLogin;;Core
+UniGe;Authentication & Identities;SSO Authentication;SSO integration - simpleSAMLphp;Federated SSO;Core
+UniGe;Authentication & Identities;SSO Authentication;UnigePass - legacy;Legacy SSO Authentication & Identities system;Core
+UCA;Authentication & Identities;LDAP directory;LDAP;;Core
+UCA;Authentication & Identities;Active directory;Active Directory;;#N/A
+UCA;Authentication & Identities;Master Data Management;EBX + Iway;"""- TIBCO EBX™ software helps organizations avoid silos to managing data assets across the enterprise.
+- Information Builder iWay is an Enterprise Service Bus (ESB)""";Core
+UCA;Authentication & Identities;SSO Authentication;SSO - CAS;;Core
+UCA;Authentication & Identities;Federated Service Provider;Shibboleth SP;;#N/A
+UCA;Authentication & Identities;Active directory;Active Directory;;#N/A
+USE ;Authentication & Identities;Digital identity system;Oracle Identity Management and Oracle Unified Directory;Manages Authentication & Identities;#N/A
+USE ;Authentication & Identities;Database;Oracle Data Base and UXXI-ERP;Users' data.;#N/A
+USE ;Authentication & Identities;LDAP directory;LDAP;;Core
+USE ;Authentication & Identities;SSO Authentication;SSO - adAS;SSO Authentication & Identities (SAML 2.0, Shibboleth, …);Core
+TUKE;Authentication & Identities;Database;Internal platform;Deduplication of Authentication & Identities;#N/A
+TUKE;Authentication & Identities;LDAP directory;LDAP;;Core
+TUKE;Authentication & Identities;Active directory;Active Directory;;#N/A
+TUKE;Authentication & Identities;SSO Authentication;SSO - KeyCloak;OpenID Connect, Oauth, SAML;Core
+TUKE;Authentication & Identities;Federated Identity Provider;SafeID;Shibboleth ready. Member of EDUGAIN;#N/A
+TUKE;Authentication & Identities;Active directory;Active Directory;;#N/A
+MCI;Campus & Community;Internal communication;Department sites;"""Web platform
+www.mci.edu""";#N/A
+MCI;Campus & Community;Internal communication;Sharepoint;;#N/A
+MCI;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core
+MCI;Campus & Community;Social networks;Mailing list;;Core
+MCI;Campus & Community;Social networks;Research gate;Social network focusing on research;Core
+MCI;Campus & Community;Internal communication;Selfservice portal (myMCI);Open access publications are submitted via myMCI and published to mci.edu after approval;#N/A
+UniGe;Campus & Community;Internal & external communication;AulaWeb;;#N/A
+UniGe;Campus & Community;Internal communication;Teams;;#N/A
+UniGe;Campus & Community;Content management;Drupal;Unige Webkit : Drupal-based CMS and visual identity kit/ themes for internal/external web publishing;#N/A
+UniGe;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core
+UniGe;Campus & Community;Video Streaming;StreamYard;Video stream tool;Core
+UniGe;Campus & Community;Social networks;Video channels;YouTube, StreamYard;Core
+UniGe;Campus & Community;Video creation;Screencast-o-matic;Web-based Screencast capture;Core
+UCA;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core
+UCA;Campus & Community;Content management;KSUP;;#N/A
+USE ;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core
+USE ;Campus & Community;Internal communication;Mailman;Mailing list server;#N/A
+TUKE;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core
+TUKE;Campus & Community;Internal communication;Departments sites;;#N/A
+MCI;Career Management ;Submit CVs;selfservice portal (myMCI);CVs are submitted via myMCI and published to mci.edu after approval;Core
+UniGe;Career Management ;National registry;ANS;Careers;Core
+UniGe;Career Management ;National registry;Ustat;Careers;Core
+UniGe;Career Management ;Job Placement ;AlmaLaurea;National database for job placement;Normal
+UCA;Career Management ;Job Placement ;Alumnforce;Job offers and internships from the Alumni community;Normal
+MCI;Collaboration & communication;Workspace Management;Sakai;"""For faculty and staff
+Access to shared resources (wiki, etc)""";Core
+MCI;Collaboration & communication;Source Control Management;Gitea;For tech departments;Core
+MCI;Collaboration & communication;Files sharing;ACOnet;For huge files;#N/A
+MCI;Collaboration & communication;Files sharing;Samba;For day to day use on windows;#N/A
+MCI;Collaboration & communication;Collaborative editor;Overleaf;"""LaTex editor
+Online solution""";#N/A
+MCI;Collaboration & communication;Collaborative editor;OnlyOffice;Solution in test phase;#N/A
+MCI;Collaboration & communication;Collaborative editor;Seafile;Solution in test phase;#N/A
+MCI;Collaboration & communication;Email;Roundcube, exim;Mailsystem for faculty and student;#N/A
+MCI;Collaboration & communication;Email;Exchange;Mailsystem for faculty and staff;#N/A
+UniGe;Collaboration & communication;Workspace Management;Sympa;;Core
+UniGe;Collaboration & communication;Workspace Management;Office 365;Teams, Sharepoint, OneDrive…;Core
+UniGe;Collaboration & communication;Conferencing;BBB;;#N/A
+UniGe;Collaboration & communication;Email;Exchange;;#N/A
+UniGe;Collaboration & communication;Mailing list manager;Sympa;;Core
+UniGe;Collaboration & communication;Video conferencing ;Teams;;Core
+UniGe;Collaboration & communication;Video conferencing ;Zoom;;Core
+UCA;Collaboration & communication;Internal documentation tool ;Confluence;;#N/A
+UCA;Collaboration & communication;Workspace Management;Sharepoint;;Core
+UCA;Collaboration & communication;Workspace Management;Office 365;OneDrive;Core
+UCA;Collaboration & communication;Content management;Nuxeo;;#N/A
+UCA;Collaboration & communication;Collaborative editor;iParapheur;With signature;#N/A
+UCA;Collaboration & communication;Ssender;AllmySMS;to send Sto communities;Core
+UCA;Collaboration & communication;Chat ;Teams;;#N/A
+UCA;Collaboration & communication;Conferencing;Teams;;#N/A
+UCA;Collaboration & communication;Conferencing;Zoom;Zoom is for meeting with externals;#N/A
+UCA;Collaboration & communication;Conferencing;Renavisio;To communicate with pertners;#N/A
+UCA;Collaboration & communication;Conferencing;Rendez-vous;To communicate with pertners;#N/A
+UCA;Collaboration & communication;Email;O365;;#N/A
+USE ;Collaboration & communication;Document management;NextCloud;Virtual hard disk for all university community members;#N/A
+USE ;Collaboration & communication;Files sharing;consigna.us.es;Self-developed software for big size file sharing;#N/A
+USE ;Collaboration & communication;Workspace Management;Office 365;Onedrive, Teams, Sharepoint, Outlook, Forms, …;Core
+USE ;Collaboration & communication;Email;MS-Exchange;e-mail service;#N/A
+USE ;Collaboration & communication;Conferencing;Teams;Video conferencing, chatting and file sharing;#N/A
+USE ;Collaboration & communication;Conferencing;BlackBoard Collaborate Ultra;Videoconferencing;#N/A
+MCI;Collaboration & communication;Conferencing;BBB;;#N/A
+MCI;Collaboration & communication;Conferencing;Adobe Connect ;;#N/A
+MCI;Collaboration & communication;Conferencing;Zoom;"""- For the lectures : study.mci4me.at
+- For conferences : meet.mci4me.at""";#N/A
+MCI;Collaboration & communication;Conferencing;Tea;;#N/A
+MCI;Collaboration & communication;Conferencing;TeaViewer;;#N/A
+UniGe;Collaboration & communication;Conferencing;Teams;+ sharing data, etc.;#N/A
+UniGe;Collaboration & communication;Conferencing;Streams;For large audience;#N/A
+UCA;Collaboration & communication;Conferencing;Zoom;;#N/A
+TUKE;Collaboration & communication;Internal documentation tool ;DocuWiki;;#N/A
+TUKE;Collaboration & communication;Workspace Management;Office 365;;Core
+TUKE;Collaboration & communication;Files sharing;Samba;;#N/A
+TUKE;Collaboration & communication;Files sharing;NFS;;#N/A
+TUKE;Collaboration & communication;Files sharing;NextCloud;;#N/A
+TUKE;Collaboration & communication;Source Control Management;GitLab;;Core
+TUKE;Collaboration & communication;Email;O365;;#N/A
+TUKE;Collaboration & communication;Social networks;Mailing lists;;Core
+TUKE;Collaboration & communication;Conferencing;Cisco Webex;;#N/A
+TUKE;Collaboration & communication;Conferencing;IP Telephony;;#N/A
+TUKE;Collaboration & communication;Conferencing;Teams;;#N/A
+UCA;Collaboration & communication;Conferencing;Panopto;;#N/A
+UCA;Collaboration & communication;Conferencing;Teams;;#N/A
+UCA;Collaboration & communication;Conferencing;BBB;;#N/A
+TUKE;Collaboration & communication;Conferencing;Cisco webex;;#N/A
+TUKE;Collaboration & communication;Conferencing;Teams;;#N/A
+USE ;Community & campus;Create curriculum ;UXXI-AC;Faculties use the academic ERP to register their plan ;#N/A
+TUKE;Community & campus;Create curriculum ;MAIS Portail;;#N/A
+UniGe;Community & campus;Create curriculum ;Unige Webkit;Publish course offer;#N/A
+MCI;Community & campus;Information;MCI Website;Events are announced at mci.edu ;#N/A
+MCI;Community & campus;Create curriculum ;MCI-Designer;Support internal management processes;#N/A
+UCA;Community & campus;Create curriculum ;APOGEE;Old schooling application;#N/A
+UCA;Community & campus;Create curriculum ;PEGASE;New schooling application;#N/A
+UCA;Courses management;Planning;ADE;Time schedules and roobooking;Core
+MCI;Events management;Conference information;Sharepoint calendar;Sharepoint calendar managed by the department for Research and Development to inform about upcoming conferences & events;#N/A
+UCA;Events management;Conference organization;ScienceConf;;#N/A
+UCA;Events management;Conference organization;"""
+EasyChair""";;#N/A
+UCA;Events management;Conference resources;"""Web platform
+http://epi-revel.unice.fr/""";;#N/A
+USE ;Events management;Conference organization;Symposium (gestioneventos.us.es);Events organization;#N/A
+TUKE;Events management;Conference information;Library IS;;#N/A
+TUKE;Events management;Conference resources;EPC system at University Library;System for publication registration;#N/A
+MCI;Exams;Online exams;Tcexam;"""Single-, multiple-choice, and open questions with extended audit trail 
+Notice : 
+Lecturers send exam questions (Excel) to assistants who then implement the content into exam tool.""";Core
+MCI;Exams;Information;Sakai;Sakai announcement with useful info for exam (log-in, time, date …);#N/A
+MCI;Exams;Online exams;Schuhfried WTS;;Core
+MCI;Exams;Results access;Sakai;All relevant information about courses, exam results etc. are announced on Sakai;Core
+UniGe;Exams;Online exams;Moodle;;Core
+UniGe;Exams;Plagiarism detection;Compilatio;;Core
+UniGe;Exams;Survey;LimeSurvey;;Core
+UCA;Exams;Video conferencing;Zoom;UCA does not promote remote exams;Core
+UCA;Exams;Results access;ENT;Digital Environnement Service of the student;Core
+UCA;Exams;Diploma certification;CVTRUST;;#N/A
+USE ;Exams;Results access;Sevius.us.es;Self-developed internal information platform;Core
+TUKE;Exams;Online exams;Moodle & Webex;combination of individual tools;Core
+TUKE;Exams;Online exams;Webex;oral exams;Core
+TUKE;Exams;Results access;MAIS Portail;;Core
+USE ;GDPR;GDPR training;Blackboard Learn;For training;#N/A
+USE ;GDPR;GDPR;gestionlopd.us.es;Software platform based on Redmine for GDPR management;#N/A
+MCI;Information;Access public information (curricula, etc.);Public website of the university;;#N/A
+UCA;Information;Information about partners ;KSUP;;#N/A
+UCA;Information;Information about partners ;Mobility Tool;;#N/A
+TUKE;Information;Information about partners ;MAIS Portail;;#N/A
+MCI;Learning  and teaching;Classes information ;selfservice portal (myMCI);Course calendar with all relevant appointments can be found on myMCI;#N/A
+TUKE;Learning  and teaching;Equiped rooms;Broadcasting rooms;;#N/A
+MCI;Learning  and teaching;Streaming;Vimeo.com;;Core
+MCI;Learning  and teaching;Library;under construction;;Core
+UniGe;Learning  and teaching;Classes information ;EasyAcademy ;Infos about classes for the students;#N/A
+MCI;Learning  and teaching;Learning Management ;Sakai;;Core
+UCA;Learning  and teaching;Learning Management ;Moodle;;Core
+UniGe;Learning  and teaching;Learning Management ;Moodle;;Core
+UCA;Learning  and teaching;Planning;ADE;Planning and time schedules ;Core
+USE ;Learning  and teaching;Learning Management ;Blackboard Learn (in SaaS mode);For managing courses (content, evaluation, student communication, etc.) > synchronized with the Academic ERP ;Core
+USE ;Learning  and teaching;Learning Management ;Blackboard Collaborate Ultra (in SaaS mode);For remote live session.;Core
+TUKE;Learning  and teaching;Learning Management ;Moodle;;Core
+UniGe;Learning  and teaching;PDF annotations;Amanote;Currently Postfix + dovecot;Core
+MCI;Learning  and teaching;Planning overview;Excel;;Core
+USE ;Learning  and teaching;Quality assurance and curricula monitoring ;logros.us.es;Quality assurance an curricula monitoring (self-develop);Core
+UCA;Learning  and teaching;Teaching Services;SGCE;We are testing a new tool to dispatch the teaching services according to the teachers’ wishes;Core
+UCA;Learning  and teaching;Teaching Services;OSE;Teaching services of the teachers are prepared with a tool called OSE. ;Core
+UCA;Learning  and teaching;MOOC platform;FUN;;Core
+USE ;Learning  and teaching;MOOC platform;Blackboard Learn (in SaaS mode);For managing courses (content, evaluation, student communication, etc.) > synchronized with the Academic ERP ;Core
+TUKE;Learning  and teaching;MOOC platform;Moodle;;Core
+MCI;Network;Federated Wireless Network;Eduroam + freeradius;;#N/A
+MCI;Network;VPN;OpenVPN?;VPN available to staff;Core
+UniGe;Network;Federated Wireless Network;eduRoam;;#N/A
+UniGe;Network;Web remote access ;UnigeProxy;;Core
+UniGe;Network;VPN;Fortinet?;Securize connection;Core
+UCA;Network;VPN;"""Cisco ASA
+Anyway VPN""";;Core
+UCA;Network;Federated Wireless Network;eduRoam;;#N/A
+USE ;Network;VPN;OpenVPN;VPN services to professor;Core
+USE ;Network;VPN;F5 VPN;VPN services to IT providers;Core
+USE ;Network;Wired and wifi infrastructure ;Cisco and Huawei router;Wired an Wifi infrastructure ;Core
+TUKE;Network;VPN;Checkpoint VPN;;Core
+TUKE;Network;VPN;Site-to-Site VPN;Interconnect securely partner-s university networks;Core
+USE ;Personal Page ;Personal page ;Sevius.us.es;Self-developed internal information platform providing access to personal and academic information;Core
+MCI;Publications;Search engine;EDS (EBSCO Discovery Service);;Core
+MCI;Publications;Search engine;Google scholar;;Core
+MCI;Publications;Library;MCI library;Internal library ;Core
+MCI;Publications;Library;EBSCOhost;Provides search across various publication databases ;Core
+MCI;Publications;Library;OBVSG Primo;Enable search for almost all literature available in Austrian Academic Libraries;Core
+UniGe;Publications;Library;Unopertutto;;Core
+UniGe;Publications;Library;PandoraCampus;manuals and textbooks for digital lending;Core
+UniGe;Publications;Library;IRIS;UniGe publication repository;Core
+UCA;Publications;Library;HAL;;Core
+UCA;Publications;Library;Scopus;;Core
+UCA;Publications;Library;Ezproxy;EZproxy allows libraries to deliver e-content to users simply, effectively, and securely no matter where or when they’re searching;Core
+UCA;Publications;Publication repository ;HAL;National open archive where authors can deposit scholarly documents from all academic fields.;Core
+USE ;Publications;Library;bib.us.es;It manages subscription;Core
+USE ;Publications;Library;www.fecyt.es;Access to researcher to almost all scientific literature ;Core
+USE ;Publications;Publication repository ;idus.us.es;Public scientific publication repository;Core
+USE ;Publications;Library;bibliometria.us.es/prisma;It collects and publishes research publications from Scopus, Research Gate, Google Scholarof all USE researchers;Core
+TUKE;Publications;Publication repository ;Publons;Peer review platform for teachers and researchers ;Core
+TUKE;Publications;Library;Project NISPEZ;National Information System for Support Research and Development in Slovakia;Core
+TUKE;Publications;Library;Full-text databases;ACM Digital Library, IEEE Xplore Digital Library, Science Direct, Springer LINK, Knovel Library, Wiley Online Library;Core
+TUKE;Publications;Library;Bibliographic scientometric databases;Web of Science, Scopus access to the GALE publishing house's databases;Core
+MCI;Resources management;External computational resources;JupyterHub;;#N/A
+MCI;Resources management;External computational resources;VSC-4;Vienna Scientific Cluster is a Collaboration & communication of several Austrian universities that provides supercomputer resources;#N/A
+UniGe;Resources management;Procurement ;Mepa;National centralized purchasing abd e-procurement;Core
+UniGe;Resources management;Procurement ;"""
+Sintel""";National centralized purchasing abd e-procurement;Core
+UniGe;Resources management;Procurement ;U-GOV;Financial ERP;Core
+UniGe;Resources management;Cloud computational resources;Internal / external cloud services;"""- IaaS PaaS SaaS platform
+- Also Cloud based services (Azure, GCP, AWS)""";#N/A
+UniGe;Resources management;External computational resources;HPC Centrers;Co-working local-regional agreements;#N/A
+UniGe;Resources management;Cloud computational resources;Microsoft 365 Unige Cloud;;#N/A
+UCA;Resources management;Material resources booking ;Visual Planning;To book the technological platform of IMREDD;Core
+UCA;Resources management;Material resources booking ;ADE;To book the medical experiments rooof TIRO MATO;Core
+UCA;Resources management;External computational resources;OPAL project convention (Ecole des Mines, INRIA, MSI, OCA);;#N/A
+USE ;Resources management;Material resources booking ;citius.us.es;USE share facilities are published on Research Services web site ;Core
+USE ;Resources management;Procurement ;UXXI-EC;Financial module - ERP : Request material acquisition for research ;Core
+USE ;Resources management;Cloud computational resources;IaaS/ PaaS;;#N/A
+USE ;Resources management;External computational resources;GEANT-OCRE;Researchers can purchase GEANT-OCRE resources.;#N/A
+USE ;Resources management;External computational resources;CICA (Andalusian Scientific Informatics Center) ;;#N/A
+TUKE;Resources management;Material resources booking ;Laboratory webpage;;Core
+TUKE;Resources management;Material resources booking ;Innovation Hub webpage;;Core
+TUKE;Resources management;Cloud computational resources;Private cloud;PaaS and IaaS ;#N/A
+TUKE;Resources management;Cloud computational resources;Public cloud;;#N/A
+TUKE;Resources management;External computational resources;Supercomputer center;;#N/A
+TUKE;Resources management;Software resources;Matlab TAH;;Core
+TUKE;Resources management;Software resources;Ansys;;Core
+MCI;Support;IT Support;"""Helpdesk platform
+helpdesk.mci.edu""";"""Service catalog
+FAQ""";#N/A
+MCI;Support;Catalogue;"""Web platform
+www.mci.edu/en/university/services""";;#N/A
+UniGe;Support;Catalogue;"""web platform
+unige.it / cedia.unige.it""";;#N/A
+UniGe;Support;Ticket system;OTRS;;Core
+UCA;Support;Catalogue;"""Web platform
+univ-cotedazur.fr""";;#N/A
+UCA;Support;Catalogue;GLPI;;#N/A
+USE ;Support;Catalogue;sic.us.es web site;Services catalogue and documentation;#N/A
+USE ;Support;Ticket system;Remedy (sos.us.es platform);ServiceDesk base on Remedy ;Core
+TUKE;Support;Catalogue;"""web platforms
+nastavenia.tuke.sk""";Service catalog ;#N/A
+TUKE;Support;Catalogue;"""web platforms
+uvt.tuke.sk""";Information's about IT services;#N/A
+TUKE;Support;Ticket system;"""web platform
+helpdesk.tuke.sk""";;Core
+TUKE;System Security;Monitoring;CheckMK;;Core
+TUKE;System Security;Email SPAM filtering;Cisco ESA;;#N/A
