@@ -91,6 +91,16 @@ sudo apt install python3 python3-pip virtualenv git-all
   ```sh
   pip install virtualenv
   ```
+* Or on MacOS:
+  1. Install homebrew
+  ```sh
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+  2. Install python3 and virtualenv
+  ```sh
+  brew install python3
+  pip3 install virtualenv
+  ```
 ### Installation
 
 1. Clone the repo
