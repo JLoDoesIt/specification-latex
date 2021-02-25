@@ -1,0 +1,302 @@
+Journey ;Code V0;Code VF;Catégorie;Theme;Service;Epic;Description;Utilisateur;Priorité ;Work Package 
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-1;INFORMATION;Support;Accessibility;Select a language;Select a language (at least the language of the 6 universities og the Alliance);All users;V1.1;
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-2;INFORMATION;Community & campus;General Program Information;Feed the catalog of Ulysseus academic programs;The catalog should be automatically feeded from each university's system;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-3;INFORMATION;Community & campus;General Program Information;View the consolidated list of Ulysseus programs ;Access to one catalog that contains all the Ulysseus programs with 360 view for each program with key information: teachers, curriculum and classes, tuition, following job and studying opportunities ;Student;V1.1;T.7.2
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-4;INFORMATION;Community & campus;General Program Information;Search through the Ulysseus Programs ;Search through the programs based on a list of criteria (e.g. duration, faculty, study cycle);Student;V1.1;T.3.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-5;INFORMATION;Community & campus;General Program Information;Contact Ulysseus for more information;select the topic of our query, provide detail on my request and my contact details to be called /emailed back ;Student;V1.1;T.3.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-6;INFORMATION;Community & campus;General Program Information;Find informations about housing;View informations about the areas, the prices, etc.;Student;V1.1;T.6.5
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-7;INFORMATION;Community & campus;General Program Information;Post and find housing ads;"""Publish an ad for an appartment / co-tenants 
+Search through the ads""";Student;V1.1;T.6.5
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-8;INFORMATION;Community & campus;General Program Information;Organize informative sessions for students before Admission starts;Upload the events' information, schedule and host informative sessions to provide an overview of the Ulysseus programs, the application process, admission requirements, a curriculum review.;Admin staff;V1.1;T.6.5
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-9;INFORMATION;Community & campus;General Program Information;Attend an informative session before the admission starts ;Review the available slots, book an informative session slot, receive a confirmation email after I book ;Student;V1.1;T.6.5
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-10;INFORMATION;Community & campus;General Program Information;Promote the Ulysseus programs toward students;Share presentation videos, testimonials in video or text format of alumni ;Admin staff;V1.1;T.7.2
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-11;INFORMATION;Community & campus;General Program Information;Receive email notifications for any news related to the program ;This epics includes notifications related to the launch of new programs or informative events, updates on application deadlines. Students should be able to request to be notified by email. ;Student;V1.1;T.7.2
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-12;INFORMATION;Community & campus;General Program Information;Receive program recommendations ;"""This epic should look like a recommendation engine to enable the students to filter among all the programs and identify the ones that are the most relevant to him or her. 
+It will be based on a number of criteria: my field of study or my interests, my studying background, my career choices """;Student;V1.1;T.3.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-13;INFORMATION;Community & campus;General Program Information;Read and search through the Ulysseus FAQ ;;Student;V1.1;T.7.2
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-14;INFORMATION;Career management;Job Board;Search for opened teaching positions across the Alliance ;Browse and search the teaching positions available across the Alliance universities by country, teaching field, posting date, required experience, physical versus online teaching ;Professor;V1.1;T.6.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-15;INFORMATION;Career management;Job Board;Search for opened administration positions across the Alliance ;Browse and search the admin positions available across the Alliance, by country, category, posting date, required experience ;Admin staff;V1.1;T.6.1
+Cross Journeys Onboarding;INFORMATIONV1.1;INFORMATIONV1.1-16;INFORMATION;Career management;Job Board;Create and update opportunities for admin staff and professors across the Alliance;Create / Remove / update a job offer and its description;Admin staff;V1.1;T.6.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-1;APPLICATION;Application;Admissions and enrollment management;Open a new program for admission ;"""Customize the application questionnaire to collect the required information from the students based on the program, set the application deadline, set the names of the approvers/reviewers 
+Set an """"opening date"""" on the form, So they can """"create"""" it at anytime. """;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-2;APPLICATION;Application;Admissions and enrollment management;Apply online for the program of my choice ;Submit the required documents, fill pre-filled questionnaires, save and review my application, submit my application;Student;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-3;APPLICATION;Application;Admissions and enrollment management;Track my application ;View the status of my application to know whether I have been accepted in my program, receive a notification if a document is missing ;Student;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-4;APPLICATION;Application;Admissions and enrollment management;Divide the applications between multiple review staff ;Assign applications to one or more different reviewers ;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-5;APPLICATION;Application;Admissions and enrollment management;Smooth post application communication with the student;Trigger an alert if a document is missing, Inform the student when there is an update related to his/ her application;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-6;APPLICATION;Application;Admissions and enrollment management;Accept / reject an application;Manage sequential approvals to include all the stakeholders, complete the application review process with an approval or rejection;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-7;APPLICATION;Application;Admissions and enrollment management;Track the approval process between the different approvers / universities ;Worflow management process for all stakeholders to view where is an application;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-8;APPLICATION;Resources management;Identity and Information Management ;Centraly manages Ulysseus members information;Easily extract all Ulysseus student's information and documentation ;Admin staff;V1.1;
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-9;APPLICATION;Application;Mobility;Maintain a catalog of standard learning agreements ;;Admin staff;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-10;APPLICATION;Application;Mobility;Secure financial aid ;"""Review the list of financial aid and support programs and follow the instruction to apply 
+Follow the status of my application""";Student;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-11;APPLICATION;Application;Mobility;Upon mobility : Fill my learning agreement application ;Pre-fill the application with student information and registered classes;Student;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-12;APPLICATION;Application;Mobility;Upon mobility : Track and complete my application ;'View the status of my application to know whether I have been accepted in my program, receive a notification if a document is missing, sign the learnin agreement;Student;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-13;APPLICATION;Application;Mobility;See all the learning agreement applications;Access ta liste of all the learning agdreement applications, see the documents;Admin staff;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-14;APPLICATION;Application;Mobility;Accept / reject a learning agreement;"""The admin has the possibility to propose modifications on the LA or accept/reject it.
+When the application is accepted, it is forwarder to the MIC for completion""";Admin staff;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-15;APPLICATION;Application;Mobility;Generate the learning agreement once a student is accepted, based on the informations provided by the student ;Select the learning agreement based on the program, auto populate the Learning Agreement form based on the informations submitted by the student, review and validate the agreement ;Admin staff;V1.1;T.6.8
+Cross Journeys Onboarding;APPLICATIONV1.1;APPLICATIONV1.1-16;APPLICATION;Application;Mobility;Sign my learning agreement ;Review the agreement and sign using electronic signature ;Student;V1.1;T.6.8
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-1;REGISTRATION;Support;Administrative Support desk;Raise an administrative request online ;Select the nature of my request, detail my request, submit my request ;Student;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-2;REGISTRATION;Support;Administrative Support desk;Process the requests ;;Admin staff;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-3;REGISTRATION;Support;Administrative Support desk;Manage my administrative requests online ;Review the status of any administrative request raised online (e.g. change in learning agreement, grant status);Student;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-4;REGISTRATION;Learning and teaching;Courses management;Get more information about the classes;Review the classes available in my program, identify the pre-requesites. Review the equivalences available across the Alliance for the same class. Search the available classes based on the key competencies, fields, availabilities ;Student;V1.1;T.3.1
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-5;REGISTRATION;Learning and teaching;Courses management;Register in a class ;Confirm my registration in a class, request to be in waiting list, cancel my registration;Student;V1.1;T.3.1
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-6;REGISTRATION;Learning and teaching;Courses management;Generate the list of students attending my classes ;Generate the list of student for each class, select the format (csv, pdf) and dowload ;Professor;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-7;REGISTRATION;Learning and teaching;Courses management;Upload the class schedule for the semester ;"""Provide the schedule of classes, the number of available slots, professor's name, online versus offline, the pre-requesites
+""";Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-8;REGISTRATION;Learning and teaching;Courses management;Manage class registration ;Track the number of students registered through Ulysseus or the university's platform to a class, block the registration if the maximum number of students is reached for this class ;Admin staff;V1.1;T.3.1
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-9;REGISTRATION;Analytics;Dashboard and Analytics ;Access student's dashboard ;View the student's program, track student's progress along the program (completed classes, registered classes), location, GPA;Admin staff;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-10;REGISTRATION;Analytics;Dashboard and Analytics ;Search students and generate a list of students based on a list of criteria;Track the incoming/outgoing registered Ulysseus students in a given semester, identify the first year students;Admin staff;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-11;REGISTRATION;Analytics;Dashboard and Analytics ;Generate Ulysseus KPIs;;Admin staff;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-12;REGISTRATION;Analytics;Dashboard and Analytics ;Generate dashboard and track KPIs for the Ulysseus program ;Track selected KPIs for the bachelor and master students registered in the Ulysseus programs (i.e. gender, ages, partner universities, disabilities, mobility types);Admin staff;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-13;REGISTRATION;Resources management;Identity and Information Management ;Manage the accounts of Ulysseus members ;Create accounts for Ulysseus new members (new students, professors or members of the administration), manage the permissions, revoke permissions, delete accounts ;Admin staff;V1.1;
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-14;REGISTRATION;Application;Mobility;Generate updated learning agreements if required based on the class selection ;Modify the learning agreement if the selection of classes differ from the initial learning agreement, review and validate the agreement ;Admin staff;V1.1;T.6.8
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-15;REGISTRATION;Community & campus;Online event management;Schedule welcome session for students (& faculty / admin members in mobility);Upload the events' information, schedule and host informative sessions to welcome students, share information on the city / university ;Admin staff;V1.1;T.6.5
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-16;REGISTRATION;Community & campus;Online event management;Register to a welcome session ;"""Review the available slots, book a session, receive a confirmation email after I book , receive an event reminder 
+""";All users;V1.1;T.6.5
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-17;REGISTRATION;Community & campus;Online event management;Attend a virtual welcome session ;Host the welcome session -> participants can move around a virtual room, engage in smaller groups conversations, or listen to a conference;All users;V1.1;T.6.5
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-18;REGISTRATION;Community & campus;Personal page;Receive all my notifications in one place (email, messages on my intranet page);Receive all my notifications in one place (email, messages on my intranet page);All users;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-19;REGISTRATION;Community & campus;Personal page;Access my calendar of classes for the semester;"""See my list of classes, their respective timings, the assigned classroom 
+""";Professor;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-20;REGISTRATION;Community & campus;Personal page;Access my calendar of classes for the semester;"""See my list of classes, their respective timings, the assigned classroom 
+""";Student;V1.1;T.2.2
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-21;REGISTRATION;Support;Welcome Center Support desk;Raise a request regarding the Welcome Program ;Select the nature of my request (e.g. housing, logistics, visa) detail my request, submit my request ;Student;V1.1;T.6.5
+Cross Journeys Onboarding;REGISTRATIONV1.1;REGISTRATIONV1.1-22;REGISTRATION;Support;Welcome Center Support desk;Process the requests regarding the Welcome Program ;;Admin staff;V1.1;T.6.5
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-1;LECTURE & TUTO;Learning and teaching;Courses management;Upload my course's content ;Upload my class materials in different format (ppt, excel, pdf, video). Map some content to each week of the semester. Hide some content as required ;Professor;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-2;LECTURE & TUTO;Learning and teaching;Courses management;Track my students' progression ;Trigger alerts if a student is late with the completion of due assignments ;Professor;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-3;LECTURE & TUTO;Learning and teaching;Online courses;Communicate with students and professors on discussion board ;Post questions, reply and comments on questions, delete a comment, search the forum ;Student;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-4;LECTURE & TUTO;Learning and teaching;Online courses;Access all my course's material in one place ;Review the course syllabus, check the learning materials assigned for each week lecture, open my weekly online lectures (if available), preview and download documents ;Student;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-5;LECTURE & TUTO;Learning and teaching;Online courses;Engage with my teacher during online lectures;Submit questions in the online class chat, option to hide my question from the rest of the class. During live lectures, opportunity to raise your hand to ask questions live ;Student;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-6;LECTURE & TUTO;Learning and teaching;Online courses;Produce online teaching materials ;Record or stream learning content through a unified platform, review tutorials and best practices, leverage templates to facilitate the recording, text videos, tag videos to specific weeks in my syllabus ;Professor;V1.1;T.2.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-7;LECTURE & TUTO;Learning and teaching;Online courses;Register and attend open-access online classes;Review and search the catalog of available open classes (EU classes targeting citizens, language course, digital skills courses) by topic, create a profile for non-Ulysseus members with an email address,  ready the class description, register to a class, receive a confirmation, access the materials online  ;All users;V1.1;T.5.2
+Journey 1 Education;LECTURE & TUTO;LECTURE & TUTO-1;LECTURE & TUTO;Learning and teaching;Online courses;Register and attend open-access online classes as an external user;Create an account as an External Ulysseus member and access open class catalog ;External users;;T.5.2
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-8;LECTURE & TUTO;Learning and teaching;Online courses;Upgrade my digital skills ;Access a digital toolkit to assess digital readiness, consult best practices for digital teaching and watch some tutorials ;Professor;V1.1;T.4.5
+Journey 1 Education;LECTURE & TUTOV1.1;LECTURE & TUTOV1.1-9;LECTURE & TUTO;Learning and teaching;Online exams;Complete assignments ;Review the schedule of assigments, complete online quizzes, submit my assignments online to my teacher;Student;V1.1;T.2.2
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-1;GROUP PROJECTS;Collaboration & communication;Document Management and Collaboration;Create a workspace;Create and manage a work group;Student;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-2;GROUP PROJECTS;Collaboration & communication;Document Management and Collaboration;Share / access documents;Work together on files;Student;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-3;GROUP PROJECTS;Collaboration & communication;Document Management and Collaboration;Raise a request to grant access to documents to external partners ;;Student;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-4;GROUP PROJECTS;Collaboration & communication;Document Management and Collaboration;Validate requests to grant access to external partners ;;Admin staff;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-5;GROUP PROJECTS;Collaboration & communication;Online communication;Attend a virtual meeting with my team;Schedule a video call with my group to collaborate remotely, share my screen;Student;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-6;GROUP PROJECTS;Collaboration & communication;Online communication;Create a group chat ;write messages, comment on messages, delete, search messages ;Student;V1.1;
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-7;GROUP PROJECTS;Learning and teaching;Online courses;Complete peers' evaluation;Rate the involvement of each team member, provide comments, submit and share with my professor;Student;V1.1;T.2.2
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-8;GROUP PROJECTS;Resources management;Publication repository search ;Research scientific publications across the Alliance to enrich my work;Run a search of publications and articles based on a set of criteria ;Student;V1.1;T.7.9
+Journey 1 Education;GROUP PROJECTSV1.1;GROUP PROJECTSV1.1-9;GROUP PROJECTS;Resources management;Scientific facilities sharing ;Book universities's resources ;Review the list of available resources (i.e. meeting rooms, labs, equipment), book the resources, receive a confirmation;Student;V1.1;T.2.2
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-1;EXAMS;Collaboration & communication;Document Management and Collaboration;Generate final learning agrement;Generate final learning agreement once the student's grades are confirmed and process the required credit transfers;Admin staff;V1.1;T.6.8
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-2;EXAMS;Community & campus;Online event management;Share the schedule of exams;Upload the timing of each exam, the instructions for online exams or indicate the exam classroom ;Admin staff;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-3;EXAMS;Learning and teaching;Online exams;Complete my exam online;Login for my exam, try out the solution ahead of the workshop, start my exam, review my work and submit ;Student;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-4;EXAMS;Learning and teaching;Online exams;Schedule and create online exams to test my students remotely ;Schedule the assignment, select a test format (multiple choices, open-ended questions, multi select questions), select an exam existing template, upload the assignment content, create quizzes, apply time limits, select random selection of questions from a question pool ;Professor;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-5;EXAMS;Learning and teaching;Online exams;Correct online exams ;Request automatic scoring and grading for multiple choices sections, review open-ended questions sections, assign grades to open-ended questions, review individual and group reports ;Professor;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-6;EXAMS;Learning and teaching;Online exams;Divide grading of online exams between professors and TA ;Assign open text sections to different reviewers ;Professor;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-7;EXAMS;Learning and teaching;Online exams;Administer proctor online exams ;;Admin staff;V1.1;
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-8;EXAMS;Community & campus;Personal page;View my exams schedule ;;Student;V1.1;T.2.2
+Journey 1 Education;EXAMSV1.1;EXAMSV1.1-9;EXAMS;Community & campus;Personal page;Review my transcripts and my cumulative GPA ;Check my grades for each class and my overall ranking ;Student;V1.1;T.2.2
+Journey 1 Education;GRADUATIONV1.1;GRADUATIONV1.1-1;GRADUATION;Support;Administrative Support desk;Apply for graduation;;Student;V1.1;T.2.2
+Journey 1 Education;GRADUATIONV1.1;GRADUATIONV1.1-2;GRADUATION;Support;Administrative Support desk;Request my official transcript;;Student;V1.1;T.2.2
+Journey 1 Education;GRADUATIONV1.1;GRADUATIONV1.1-3;GRADUATION;Application;Admissions and enrollment management;Manage students' application for graduation ;Track the applications received for graduation, automatically flag if a student does not meet the curriculum requirements, share the graduation convocation once the application is confirmed ;Admin staff;V1.1;
+Journey 1 Education;GRADUATIONV1.1;GRADUATIONV1.1-4;GRADUATION;Community & campus;Online event management;Communicate the graduation calendar;"""Upload the graduation schedule 
+""";Admin staff;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCH INFORMATIONV1.1;RESEARCH INFORMATIONV1.1-1;RESEARCH INFORMATION;Community & campus;General Program Information;Promote Ulysseus research programs and key results ;Present Ulysseus Innovation Hubs, research grants and awards, creation of deep teach start-ups/spin-offs and key publications (scientific, reports, etc.);Researchers;V1.1;T.7.2
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-1;PROJECT FINANCING;Community & campus;Community building and management;Identify a call for projects for my research across a consolidated list of existing CFP;Search and access a consolidated list of  CFP (European, national, bi-national), filter the results based on my field of study, the value of financing, the time period ;Researchers;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-2;PROJECT FINANCING;Collaboration & communication;Customer/partners Relationship Management;Access the agencies directory;Search through a consolidated directory  of all agencies - their name, role & mission, key contact person ;Researchers;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-3;PROJECT FINANCING;Collaboration & communication;Customer/partners Relationship Management;Manage the agencies directory;Upload the existing information maintained by each university on the research agencies, any new entry in the respective university's directory is reflected at Ulysseus level ;Admin staff;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-4;PROJECT FINANCING;Collaboration & communication;Document Management and Collaboration;Co-write a proposal (edit online);Collaborate, write and edit scientific documents;Researchers;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-5;PROJECT FINANCING;Collaboration & communication;Document Management and Collaboration;Join a team to co-write a Ulysseus proposal ;View the list of open proposals, search through by topics, identify names of the researchers, reply to the proposal ;Researchers;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-6;PROJECT FINANCING;Collaboration & communication;M4C;Post an ad to onboard researchers from other universities to write a proposal ;Publish an ad on the announcement board targeting Ulysseus researchers, introduce the funding proposal, the field of research, the participants and their contact details, the role the team is looking for;Researchers;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-7;PROJECT FINANCING;Collaboration & communication;M4C;Review the ads posted by my community ;Search the ads, reply to an ad;Researchers;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-8;PROJECT FINANCING;Resources management;Project Management ;Leverage templates to write proposals ;Browse through a library of proposal templates ;Researchers;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-9;PROJECT FINANCING;Resources management;Project Management ;Upload templates for proposals;Create / upload templates;Admin staff;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-10;PROJECT FINANCING;Support;Research support desk ;Request university's administration support to develop the research proposal ;Raise a request to request support from the University administration, fill information on the proposal ;Researchers;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;PROJECT FINANCINGV1.1;PROJECT FINANCINGV1.1-11;PROJECT FINANCING;Support;Research support desk ;Support the development and the submission of Ulysseus research proposals ;Receive a notification, reply to messages ;Admin staff;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-1;RESEARCH;Resources management;Project Management ;Create a project ID card ;Present the project scope, import the list of workpages and subtasks, the underlying project plan and financing model, the sources of fundings, the names of the researchers;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-2;RESEARCH;Resources management;Project Management ;Manage the finance of a research project ;Record projects expenses, map the expenses to the different workpackages and tasks, review the outstanding balances at workpackage and task level, upload, save and organize receipts;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-3;RESEARCH;Resources management;Project Management ;Manage the project progress ;Update the completion level against the tasks and workpackages, comment on the progress of each task and workpackage, update milestones, trigger alerts when an action is delayed;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-4;RESEARCH;Resources management;Project Management ;Assign and coordinate work among the teams;Assign tasks to a researchers, create, update and delete dependencies among tasks;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-5;RESEARCH;Resources management;Project Management ;Track the status of the ongoing projects;Review the project ID card that includes the names of the participants (researchers and contractuals), the sources of fundings, the outstanding balance, starting date;Admin staff;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-6;RESEARCH;Resources management;Project Management ;Administer the project ID cards ;Review existing project ID cards, delete old and expired project ID cards, validate new project ID cards ;Admin staff;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-7;RESEARCH;Resources management;Publication repository search ;Search and accesss published articles on my research topic ;Run a search of publications and articles based on a set of criteria, identify the name of the publishers ;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-8;RESEARCH;Support;Research support desk ;Request support on a research project ;Raise a request to request support from the University administration, fill information on the project, define a level of criticality;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-9;RESEARCH;Support;Research support desk ;Support the development and the submission of Ulysseus research proposals ;Receive a notification, reply to the query, assign the ticket to the key person;Admin staff;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-10;RESEARCH;Support;Research support desk ;Manage my request for support on a research project ;View the status of my query, get a notification when my query status is updated ;Researchers;V1.1;
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-11;RESEARCH;Resources management;Scientific facilities sharing ;Review the technical equipment available across the ecosystem ;Browse and search through the list of technical equipments, read the description of the equipment, the price, the university, the name of the contact person ;Researchers & PhD students ;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-12;RESEARCH;Resources management;Scientific facilities sharing ;Update the list of equipments available across the university;;Admin staff;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-13;RESEARCH;Resources management;Scientific facilities sharing ;Run your experiment remotely;Share your experiment script and receive the results of the experiment;Researchers & PhD students ;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-14;RESEARCH;Resources management;Scientific facilities sharing ;Book an equipment ;Review the available slots, book an equipment, receive a confirmation email after I book ;Researchers & PhD students ;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;RESEARCHV1.1;RESEARCHV1.1-15;RESEARCH;Resources management;Survey Management ;Create a survey;Access a library of survey templates, customize the survey, circulate the survey through a community of practice or the announcement board targeting the right audience ;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-1;COLLABORATE;Collaboration & communication;Customer/partners Relationship Management;Create accounts for external users;Create an account for an external user: private company, agency, territorial organization, indicate their industry, their field of interest ;Researchers & PhD students ;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-2;COLLABORATE;Collaboration & communication;Customer/partners Relationship Management;Administer accounts of external users ;Validate requests to create new accounts for external users, create new accounts, delete accounts, edit information;Admin staff;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-3;COLLABORATE;Collaboration & communication;Customer/partners Relationship Management;Update the account ID card for external users;Add a new contact in the account, select the confidentiality level of the information, map existing projects to an account card, upload documentation;Researchers & PhD students ;V1.1;T.2.2
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-4;COLLABORATE;Collaboration & communication;Document Management and Collaboration;Share documents with my research project members;CRUD principle;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-5;COLLABORATE;Collaboration & communication;Document Management and Collaboration;Create a virtual workspace with Ulysseus members to manage a research project ;Create a group, invite members, share documents;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-6;COLLABORATE;Collaboration & communication;M4C;Create communities of practice around a research topic ;Create a community of practice, fill information of the community's interests and objectives, invite members;Researchers & PhD students ;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-7;COLLABORATE;Collaboration & communication;M4C;Join a community of practice ;"""Browse and search through the list of communities of practice across and join one
+Is it possible for the master students""";Researchers & PhD students ;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-8;COLLABORATE;Collaboration & communication;M4C;Invite external partners to join a community of practice ;Invite partners (companies, local agencies etc) with external email addresses ;Researchers & PhD students ;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-9;COLLABORATE;Collaboration & communication;M4C;Post in a community of practice ;Share document, create a post, reply to a post, search through posts, use tags ;Researchers & PhD students ;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-10;COLLABORATE;Collaboration & communication;M4C;Administer the communities of practice ;Review and approve the requests to create a community of practice, manage the access rights, delete dormant communities ;Admin staff;V1.1;T.3.5
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-11;COLLABORATE;Collaboration & communication;Online Communication;Communicate with my research group members;chat;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-12;COLLABORATE;Community & campus;Online event management;Register for a networking event (Research Lunch) / PhD conferences ;Review the list of events organized for researchers, register, receive a confirmation  ;Researchers & PhD students ;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-13;COLLABORATE;Community & campus;Online event management;Attend  for a networking event (Research Lunch) / PhD conferences ;host the event -> participants can move around a virtual room, engage in smaller groups conversations, or listen to a conference;Researchers & PhD students ;V1.1;T.3.3
+Journey 2 Research Project Lifecycle;COLLABORATEV1.1;COLLABORATEV1.1-14;COLLABORATE;Resources management;Survey Management ;Register to participate in taking surveys;;Researchers & PhD students ;V1.1;
+Journey 2 Research Project Lifecycle;THESIS SUBMISSIONV1.1;THESIS SUBMISSIONV1.1-1;THESIS SUBMISSION;Resources management;PhD toolbox;Upload thesis templates;Create / upload thesis templates;Admin staff;V1.1;
+Journey 2 Research Project Lifecycle;THESIS SUBMISSIONV1.1;THESIS SUBMISSIONV1.1-2;THESIS SUBMISSION;Resources management;PhD toolbox;Leverage Ulysseus thesis templates;Browse through a library of thesis templates ;PhD students;V1.1;
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-1;CAMPUS LIFE;Community & campus;Community building and management;Create a mailing list ;Search people  based on a list of criteria, select all, unselect, select only a few, export to email addresses to outlook to create a mailing list ;Admin staff;V1.1;
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-2;CAMPUS LIFE;Community & campus;Community building and management;Share Campus-wide announcements;Inform students on the launch of new activities, events, campus rules through the announcement board targeting all the students  ;Admin staff;V1.1;T.2.7
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-3;CAMPUS LIFE;Community & campus;General Program Information;Search information about Ulysseus student associations;Maintain the directory of all the students' associations, filter and search the associations based on a set of criteria ;Student;V1.1;T.2.7
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-4;CAMPUS LIFE;Community & campus;Online event management;Organise campus-wide events ;"""Schedule events :  upload events informations (whether the event is virtual or physical), set a maximum of attendees, track the registration.
+""";Admin staff;V1.1;T.2.7
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-5;CAMPUS LIFE;Community & campus;Online event management;Register for an event;Review the list of events organized across all the campus, register, receive a confirmation  ;All users;V1.1;T.2.7
+Cross Journeys Campus Life;CAMPUS LIFEV1.1;CAMPUS LIFEV1.1-6;CAMPUS LIFE;Community & campus;Online event management;Attend a virtual event ;host the event -> participants can move around a virtual room, engage in smaller groups conversations, or listen to a conference;Student;V1.1;T.2.7
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-1;INTERACT WITH THE ECOSYSTEM;Community & campus;Community building and management;Register for the mentoring program as a mentee;Share an introduction message of myself, my field of study, my program on the announcement board of the mentoring program ;Student;V1.1;T.4.2
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-2;INTERACT WITH THE ECOSYSTEM;Community & campus;Community building and management;Register for the mentoring program as a mentor;Review the posts of students, send a message to a student ;Professor;V1.1;T.4.2
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-3;INTERACT WITH THE ECOSYSTEM;Community & campus;Community building and management;Search the Ulysseus directory ;Filter and search the Ulysseus directory by name, university, faculty;All users;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-4;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Document Management and Collaboration;Create a workspace;Create and manage a group with professors;Professor;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-5;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Document Management and Collaboration;Share / access documents;Work together on files;Professor;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-6;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Document storage management;Manage my documents ;Create folders, organize folders, upload documents ;Professor;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-7;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Create communication groups between my peers across Ulysseus around specific topic ;Communicate, exchange assets and best practices;All users;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-8;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Register my profile ;Confirm the creation of a profile in the solution, export information from my personal page to M4C;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-9;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Update my research profile in Ulysseus network;Update my profile: indicate my university, my lab, my name, my role, my field of research;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-10;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Connect my profile to Research social network ;Connect my Ulysseus research profile to my Research Gate profile, access to the publications available on Research Gate;Researchers & PhD students ;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-11;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Search profiles across all Ulysseus network (external and internal);Search existing accounts of external users based on the industry, location, interests ;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-12;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Receive recommendations of profile based on my initial research ;;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-13;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Engage communication with the people of interests;Send messages, delete messages, reply to messages ;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-14;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Validate the request to create a profile for external users ;Receive notifications when an external user is creating a profile, review the information, validate ;Admin staff;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-15;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Map profiles of external users to the correct account ;Assign the profiles (individual names) to the associated existing partner account / new account in the CRM;Admin staff;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-16;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Request the creation of a profile as a non-Ulysseus member;Create a profile with my email, update my profile with my name, my company's name or organization I represent, my role, my field of research (if applicable), upload a picture, search and connect with other Ulysseus members ;External users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-17;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Push notifications to my community when i publish a new article;Receive a notification to allow the solution to notifiy my community when i publish an articles on one of the Open Data repositories ;Researchers & PhD students ;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-18;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Receive notifications when my community is posting new articles ;;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-19;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;M4C;Change my notification settings to receive alerts on topics that interest me ;;All users;V1.1;T.3.5
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-20;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Online communication;Communicate remotely with the rest of Ulysseus ecosystem ;1 to 1, 1 to many, many to many comunication;All users;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-21;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Online communication;Create a group chat ;write messages, comment on messages, delete, search messages ;All users;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-25;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Online communication;Attend a meeting prof / student;Visio available at the selected time if the meeting is online;;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-23;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Online communication;Engage with my professors;Review the list of available slots, select physical or online meeting, book a slot, receive a confirmation;Student;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-24;INTERACT WITH THE ECOSYSTEM;Collaboration & communication;Online communication;Engage with my students ;Upload a list of available timeslots for meetings (online or physical), receive an update when a slot is booked ;Professor;V1.1;
+Cross Journeys Ecosystem Interactions;INTERACT WITH THE ECOSYSTEMV1.1;INTERACT WITH THE ECOSYSTEMV1.1-25;INTERACT WITH THE ECOSYSTEM;Community & campus;Personal page;Manage my internal profile online ;Disclose the information i wish to share with the ecosystem, update my profile picture ;All users;V1.1;T.2.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-1;EXIT A PROGRAM;Career management;Career management toolbox ;Document myself on the best practices for job search  ;Browse and search through a library of document by topics, download documents, preview documents ;Admin staff;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-2;EXIT A PROGRAM;Career management;Career management toolbox ;Share documentation with students to help them shape their career ;Upload documents, classify documents, add tags to facilitate search functionalities ;Admin staff;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-3;EXIT A PROGRAM;Career management;Career management toolbox ;Review documentation to clarify the academic path of young researchers and the research ecosystem of each Alliance country ;Search documents by topics, download documents, preview documents ;PhD students;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-4;EXIT A PROGRAM;Career management;Career management toolbox ;Share documentation with PhD students to help them shape their career ;Upload documents, classify documents, add tags to facilitate search functionalities ;Admin staff;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-5;EXIT A PROGRAM;Career management;Job Board;Find a job opportunity ;Search and access a consolidated list of jobs available across the Alliance countries, filter the results based on my field of study, my study cycle, country, other key words ;Student;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-6;EXIT A PROGRAM;Career management;Job Board;Find an internship;Search and access a consolidated list of internships available across the Alliance countries, filter the results based on my field of study, my study cycle, country, other key words ;Student;V1.1;T.3.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-7;EXIT A PROGRAM;Career management;Job Board;Create job and academic opportunities for post-doctoral students across the Alliance;Create the offers witj a description, the country / industry and all the informations;Admin staff;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-8;EXIT A PROGRAM;Career management;Job Board;Review the academic opportunities for post-doctoral students across the Alliance ;Browse and search the post-doctoral positions available across the Alliance by field of research, country, university ;PhD students;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-9;EXIT A PROGRAM;Career management;Job Board;Review job opportunities for post-doctoral students across among the Alliance industrial partners;Browse and search the job positions available by job area, country, industry;PhD students;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-10;EXIT A PROGRAM;Collaboration & communication;Online communication;Engage with student on their career ;Upload a list of available timeslots for meetings (online or physical), receive an update when a slot is booked ;Admin staff;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-11;EXIT A PROGRAM;Collaboration & communication;Online communication;Engage with a career counsellor;Review the list of available slots, select physical or online meeting, book a slot, receive a confirmation;Student;V1.1;T.4.2
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-12;EXIT A PROGRAM;Career management;Virtual job fair ;Organize job fairs or informative sessions ;Schedule events :  upload events informations (whether the event is virtual or physical), set a maximum of attendees, track the registration;Admin staff;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-13;EXIT A PROGRAM;Career management;Virtual job fair ;Register to job fairs ;Review the list of events organized across all the campus, register, receive a confirmation  ;Student;V1.1;T.6.6
+Cross Journeys Exit Program;EXIT A PROGRAMV1.1;EXIT A PROGRAMV1.1-14;EXIT A PROGRAM;Career management;Virtual job fair ;Attend virtual job fair;host the event -> participants can move around a virtual room, engage in smaller groups conversations, or listen to a conference;Student;V1.1;T.6.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-1;ENTREPRENEURSHIP;Application;Admissions and enrollment management;Apply to join the incubator / acceleration programs ;Fill an application, upload documentation, save the application, review the application ;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-2;ENTREPRENEURSHIP;Application;Admissions and enrollment management;Accept / reject an application for one of the incubation program;Manage sequential approvals to include all the stakeholders, complete the application review process with an approval or rejection;Admin staff;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-3;ENTREPRENEURSHIP;Application;Admissions and enrollment management;Track my application to the incubator;View the status of my application to know whether I have been accepted in my program, receive a notification if a document is missing ;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-4;ENTREPRENEURSHIP;Community & campus;General Program Information;Review the existing incubation programs and the pre-requesites;Search through the available programs, read the program description ;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-5;ENTREPRENEURSHIP;Support;Innovation Support Desk ;Request support on my start-up project ;;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-6;ENTREPRENEURSHIP;Support;Innovation Support Desk ;Manage the queries received from external  users ;;Admin staff;V1.1;T.5.2
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-7;ENTREPRENEURSHIP;Resources management;Innovation toolbox;Access and search through Ulysseus available entrepreneurship resources ;Navigate the library of available documents , search by topic, date, download or preview the documents;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-8;ENTREPRENEURSHIP;Resources management;Innovation toolbox;Create and update the Ulysseus entrepreneurship resources ;;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-9;ENTREPRENEURSHIP;Collaboration & communication;Online Communication;Meet a coach / an expert ;Review the list of available slots, select physical or online meeting, book a slot, receive a confirmation;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-10;ENTREPRENEURSHIP;Collaboration & communication;Online Communication;Attend a visio call with a coach ;Visio available at the selected time if the meeting is online;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-11;ENTREPRENEURSHIP;Collaboration & communication;Online Communication;Meet the entrepreneurs ;"""Provide a list of available slots 
+""";Researchers & PhD students ;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-12;ENTREPRENEURSHIP;Learning and teaching;Online courses;Follow some virtual training entrepreneurship modules ;;Entrepreneur;V1.1;T.4.4
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-13;ENTREPRENEURSHIP;Community & campus;Personal page;Create a profile for the external entrepreneurs who have been enrolled in the incubator ;;Admin staff;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-14;ENTREPRENEURSHIP;Resources management;Project Management ;Create a project page and provide access to the entrepreneur(s);;Admin staff;V1.1;T.2.6
+Cross Journeys innovation;ENTREPRENEURSHIPV1.1;ENTREPRENEURSHIPV1.1-15;ENTREPRENEURSHIP;Resources management;Project Management ;Create my project plan ;;Entrepreneur;V1.1;T.2.6
+Cross Journeys innovation;EXTERNAL INNOVATION ECOSYSTEMV1.1;EXTERNAL INNOVATION ECOSYSTEMV1.1-1;EXTERNAL INNOVATION ECOSYSTEM;Support;Innovation Support Desk ;Contact the innovation hub regarding a research related query ;;All users;V1.1;T.5.2
+Cross Journeys innovation;EXTERNAL INNOVATION ECOSYSTEMV1.1;EXTERNAL INNOVATION ECOSYSTEMV1.1-2;EXTERNAL INNOVATION ECOSYSTEM;Support;Innovation Support Desk ;Manage the queries received from external  users ;;Admin staff;V1.1;T.5.2
+;;-1;;;;;;;;
+;;-2;;;;;;;;
+;;-3;;;;;;;;
+;;-4;;;;;;;;
+;;-5;;;;;;;;
+;;-6;;;;;;;;
+;;-7;;;;;;;;
+;;-8;;;;;;;;
+;;-9;;;;;;;;
+;;-10;;;;;;;;
+;;-11;;;;;;;;
+;;-12;;;;;;;;
+;;-13;;;;;;;;
+;;-14;;;;;;;;
+;;-15;;;;;;;;
+;;-16;;;;;;;;
+;;-17;;;;;;;;
+;;-18;;;;;;;;
+;;-19;;;;;;;;
+;;-20;;;;;;;;
+;;-21;;;;;;;;
+;;-22;;;;;;;;
+;;-23;;;;;;;;
+;;-24;;;;;;;;
+;;-25;;;;;;;;
+;;-26;;;;;;;;
+;;-27;;;;;;;;
+;;-28;;;;;;;;
+;;-29;;;;;;;;
+;;-30;;;;;;;;
+;;-31;;;;;;;;
+;;-32;;;;;;;;
+;;-33;;;;;;;;
+;;-34;;;;;;;;
+;;-35;;;;;;;;
+;;-36;;;;;;;;
+;;-37;;;;;;;;
+;;-38;;;;;;;;
+;;-39;;;;;;;;
+;;-40;;;;;;;;
+;;-41;;;;;;;;
+;;-42;;;;;;;;
+;;-43;;;;;;;;
+;;-44;;;;;;;;
+;;-45;;;;;;;;
+;;-46;;;;;;;;
+;;-47;;;;;;;;
+;;-48;;;;;;;;
+;;-49;;;;;;;;
+;;-50;;;;;;;;
+;;-51;;;;;;;;
+;;-52;;;;;;;;
+;;-53;;;;;;;;
+;;-54;;;;;;;;
+;;-55;;;;;;;;
+;;-56;;;;;;;;
+;;-57;;;;;;;;
+;;-58;;;;;;;;
+;;-59;;;;;;;;
+;;-60;;;;;;;;
+;;-61;;;;;;;;
+;;-62;;;;;;;;
+;;-63;;;;;;;;
+;;-64;;;;;;;;
+;;-65;;;;;;;;
+;;-66;;;;;;;;
+;;-67;;;;;;;;
+;;-68;;;;;;;;
+;;-69;;;;;;;;
+;;-70;;;;;;;;
+;;-71;;;;;;;;
+;;-72;;;;;;;;
+;;-73;;;;;;;;
+;;-74;;;;;;;;
+;;-75;;;;;;;;
+;;-76;;;;;;;;
+;;-77;;;;;;;;
+;;-78;;;;;;;;
+;;-79;;;;;;;;
+;;-80;;;;;;;;
+;;-81;;;;;;;;
+;;-82;;;;;;;;
+;;-83;;;;;;;;
+;;-84;;;;;;;;
+;;-85;;;;;;;;
+;;-86;;;;;;;;
+;;-87;;;;;;;;
+;;-88;;;;;;;;
+;;-89;;;;;;;;
+;;-90;;;;;;;;
+;;-91;;;;;;;;
+;;-92;;;;;;;;
+;;-93;;;;;;;;
+;;-94;;;;;;;;
+;;-95;;;;;;;;
+;;-96;;;;;;;;
+;;-97;;;;;;;;
