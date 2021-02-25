@@ -82,7 +82,7 @@ You should have a running OS with Python3 installed as well as pip3 and virtuale
 For instance on Ubuntu
 ```sh
 sudo apt update
-sudo apt install python3,python3-pip,virtualenv
+sudo apt install python3 python3-pip virtualenv
 ```
 
 ### Installation
