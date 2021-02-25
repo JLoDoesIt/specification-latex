@@ -79,12 +79,18 @@ You can very easily generate specification documents by just telling what are yo
 ### Prerequisites
 
 You should have a running OS with Python3 installed as well as pip3 and virtualenv
-For instance on Ubuntu
+For instance on Ubuntu:
 ```sh
 sudo apt update
-sudo apt install python3 python3-pip virtualenv
+sudo apt install python3 python3-pip virtualenv git-all
 ```
-
+Or on windows:
+Install python3 and [pip](https://pip.pypa.io/en/stable/installing/)
+Install [git](https://git-scm.com/download/win_)
+In your Command Prompt enter:
+```sh
+pip install virtualenv
+```
 ### Installation
 
 1. Clone the repo
