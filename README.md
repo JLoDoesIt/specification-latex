@@ -72,22 +72,25 @@ You can very easily generate specification documents by just telling what are yo
 
 ### Built With
 
-* [Pandas](https://pandas.pydata.org/)
-* [PyLatex](https://github.com/JelteF/PyLaTeX)
+* [Pandas](https://pandas.pydata.org/) to read CSV
+* [PyLatex](https://github.com/JelteF/PyLaTeX) to generate Latex files
+* [TexLive](https://tug.org/texlive/) to generate PDF files from Latex files
 
 
 ### Prerequisites
 
-You should have a running OS with Python3 installed as well as pip3 and virtualenv
+You should have a running OS with Python3 installed as well as pip3, virtualenv and texlive
 * For instance on Ubuntu:
 ```sh
 sudo apt update
-sudo apt install python3 python3-pip virtualenv git-all
+sudo apt install python3 python3-pip virtualenv git-all texlive-latex-base texlive-fonts-recommended
+tlmgr update --self --all
 ```
 * Or on windows:
   1. Install python3 and [pip](https://pip.pypa.io/en/stable/installing/)
   2. Install [git](https://git-scm.com/download/win_)
-  3. In your Command Prompt enter:
+  3. Install [texlive](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
+  4. In your Command Prompt enter:
   ```sh
   pip install virtualenv
   ```
@@ -96,11 +99,14 @@ sudo apt install python3 python3-pip virtualenv git-all
   ```sh
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-  2. Install python3 and virtualenv
+  2. Install python3 and virtualenv and basictex
   ```sh
   brew install python3
   pip3 install virtualenv
+  brew install basictex
+  tlmgr update --self --all
   ```
+  3. Restart terminal
 ### Installation
 
 1. Clone the repo
