@@ -162,7 +162,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@JLo_IT](https://twitter.com/JLo_IT)
+JLo - [@JLo_IT](https://twitter.com/JLo_IT)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
