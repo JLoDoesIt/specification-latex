@@ -1,7 +1,13 @@
 University;Theme;Service;Tool;Tool_Description;Importance;Service_Description
-UniGe;Application;Application for international mobility;Dreamapply;;Important;The students can apply online for mobility and the application is be processed online.
-UCA;Application;Application for international mobility;MoveOn ;;Important;The students can apply online for mobility and the application is be processed online.
-TUKE;Application;Application for international mobility;ePrihlaska;https://eprihlaska.tuke.sk;Important;The students can apply online for mobility and the application is be processed online.
+UniGe;Application;Application for international mobility;Dreamapply;;app;"""The students can apply online for mobility.
+The applications are processed online as well.
+If needed, the administration can communicate with the applicant, to request a complement for instance."""
+UCA;Application;Application for international mobility;MoveOn ;;app;"""The students can apply online for mobility.
+The applications are processed online as well.
+If needed, the administration can communicate with the applicant, to request a complement for instance."""
+TUKE;Application;Application for international mobility;ePrihlaska;https://eprihlaska.tuke.sk;app;"""The students can apply online for mobility.
+The applications are processed online as well.
+If needed, the administration can communicate with the applicant, to request a complement for instance."""
 MCI;Authentication & Identities;Active directory;Active Directory;On-site;Core;Active directory is the service where the AD objects in the domain are stored. It can include users, shared folders, printers…
 UniGe;Authentication & Identities;Active directory;Azure Active Directory;;Core;Active directory is the service where the AD objects in the domain are stored. It can include users, shared folders, printers…
 UCA;Authentication & Identities;Active directory;Active Directory;;Core;Active directory is the service where the AD objects in the domain are stored. It can include users, shared folders, printers…
@@ -18,9 +24,9 @@ MCI;Authentication & Identities;Federated Identity Provider;Shibboleth-IDP;Authe
 UniGe;Authentication & Identities;Federated Identity Provider;IDEM/eduGAIN;;Core;The federated identity provider system provides single access to multiple systems across different organizations
 TUKE;Authentication & Identities;Federated Identity Provider;SafeID;Shibboleth ready. Member of EDUGAIN;Core;The federated identity provider system provides single access to multiple systems across different organizations
 MCI;Authentication & Identities;Federated Service Provider;Shibboleth SP;"""
-- Notice : standard authent for some services""";Core;This service provides the different services to the authenticades user.
-UniGe;Authentication & Identities;Federated Service Provider;Shibboleth SP;;Core;This service provides the different services to the authenticades user.
-UCA;Authentication & Identities;Federated Service Provider;Shibboleth SP;;Core;This service provides the different services to the authenticades user.
+- Notice : standard authent for some services""";Core;This service provides the different services to the authenticated user.
+UniGe;Authentication & Identities;Federated Service Provider;Shibboleth SP;;Core;This service provides the different services to the authenticated user.
+UCA;Authentication & Identities;Federated Service Provider;Shibboleth SP;;Core;This service provides the different services to the authenticated user.
 UniGe;Authentication & Identities;LDAP directory;LDAP;"""To store username, pwd, etc.
 Used for pwd validation for example""";Core;"""LDAP is a protocol that many different directory services and access management solutions can understand.
 It is used to communicate with Active Directory."""
@@ -31,7 +37,7 @@ It is used to communicate with Active Directory."""
 TUKE;Authentication & Identities;LDAP directory;LDAP;;Core;"""LDAP is a protocol that many different directory services and access management solutions can understand.
 It is used to communicate with Active Directory."""
 UCA;Authentication & Identities;Master Data Management;EBX + Iway;"""- TIBCO EBX™ software helps organizations avoid silos to managing data assets across the enterprise.
-- Information Builder iWay is an Enterprise Service Bus (ESB)""";#N/A;#N/A
+- Information Builder iWay is an Enterprise Service Bus (ESB)""";0;The Master Data Management service defines the processes to ensure the uniformity, accuracy, stewardship, semantic consistency and accountability of the master data assets.
 UniGe;Authentication & Identities;SSO Authentication;SSO - OneLogin;;Core;"""The system needs an authentication service to restrict the access to the different services.
 The single-sign-on is a method that allows the user log in once and to access several services with the same session."""
 UniGe;Authentication & Identities;SSO Authentication;SSO integration - simpleSAMLphp;Federated SSO;Core;"""The system needs an authentication service to restrict the access to the different services.
@@ -47,14 +53,11 @@ The single-sign-on is a method that allows the user log in once and to access se
 UniGe;Campus & Community;Content management;Drupal;Unige Webkit : Drupal-based CMS and visual identity kit/ themes for internal/external web publishing;Normal;"""This service aims to modernize the content management by : 
 - optimizing the entire information lifecycle
 - automating workflows  
-- provide content governance"""
+- provide content governance."""
 UCA;Campus & Community;Content management;KSUP;;Normal;"""This service aims to modernize the content management by : 
 - optimizing the entire information lifecycle
 - automating workflows  
-- provide content governance"""
-UniGe;Campus & Community;External communication;AulaWeb;;Normal;"""The universities can communicate and disseminate informations externally.
-Both internal and external users can access these informations.
-The external communication coult be promotion for Ulysseus, information related to open science…)."""
+- provide content governance."""
 UniGe;Campus & Community;Internal communication;AulaWeb;;Normal;"""The universities can communicate and disseminate informations internally.
 Only the university members can access these informations."""
 MCI;Campus & Community;Internal communication;Department sites;"""Web platform
@@ -79,31 +82,37 @@ UCA;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - 
 USE ;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core;The universities publish informations and promote throught the social networks : twitter, instragram, etc.
 TUKE;Campus & Community;Social networks;Linkedin - Facebook - Twiitter - Insta - Telegram;;Core;The universities publish informations and promote throught the social networks : twitter, instragram, etc.
 UniGe;Campus & Community;Video creation;Screencast-o-matic;Web-based Screencast capture;Normal;"""The professors need to create videos as courses materials. 
-For the creation, they need a tool that gives them access to standards and good practices, and allows them to edit the content."""
+The video creation service gives them access to standards and good practices, and allows them to edit the content."""
 UniGe;Campus & Community;Video Streaming;StreamYard;Video stream tool;Normal;"""The video streaming is a method of viewing video without actually downloading the media files.
-The video streaming would be useful for the students to take their online courses and access any academic content in a video format."""
-UniGe;Career Management ;Job Placement ;AlmaLaurea;National database for job placement;Normal;This service allows the students to access jobs at the end of their studies.
-UCA;Career Management ;Job Placement ;Alumnforce;Job offers and internships from the Alumni community;Normal;This service allows the students to access jobs at the end of their studies.
-UniGe;Career Management ;National registry;ANS;Careers;#N/A;#N/A
-UniGe;Career Management ;National registry;Ustat;Careers;#N/A;#N/A
-MCI;Career Management ;Submit CVs;selfservice portal (myMCI);CVs are submitted via myMCI and published to mci.edu after approval;#N/A;#N/A
-UCA;Collaboration & communication;Chat ;Teams;;Core;Every user is able to communicate through direct messages in one to one, or inside a private group.
+The video streaming could be useful for the students to take their online courses and access any academic content in a video format."""
+UniGe;Career Management ;Job Placement ;AlmaLaurea;National database for job placement;Normal;"""The job placement service allows the students to access jobs at the end of their studies.
+The job offers are centralized and published so the students can search through all the offers and find the ones that match their criteria."""
+UCA;Career Management ;Job Placement ;Alumnforce;Job offers and internships from the Alumni community;Normal;"""The job placement service allows the students to access jobs at the end of their studies.
+The job offers are centralized and published so the students can search through all the offers and find the ones that match their criteria."""
+UniGe;Career Management ;National registry;ANS;Careers;0;"""The national registry allows to manage the career and graduation of each students.
+The students can check for the validated credits, see if the exams are passed, etc.
+This service still requires manual operations from the admin staff, as for the transcript delivery."""
+UniGe;Career Management ;National registry;Ustat;Careers;0;"""The national registry allows to manage the career and graduation of each students.
+The students can check for the validated credits, see if the exams are passed, etc.
+This service still requires manual operations from the admin staff, as for the transcript delivery."""
+MCI;Career Management ;Submit CVs;selfservice portal (myMCI);CVs are submitted via myMCI and published to mci.edu after approval;0;This service includes the submission,  the maintenance, and the publication of the researchers CVs.
+UCA;Collaboration & communication;Chat ;Teams;;Core;Every user is able to communicate through direct messages in one to one, or inside a private group with several usaers.
 MCI;Collaboration & communication;Collaborative editor;Overleaf;"""LaTex editor
 Online solution""";Core;"""Possibility for a set of users users to : 
 - edit the same document at the same time
-- see the other collaborators modifications
+- see the other collaborators modifications.
 The users who are not authorized cannot not access the document."""
 MCI;Collaboration & communication;Collaborative editor;OnlyOffice;Solution in test phase;Core;"""Possibility for a set of users users to : 
 - edit the same document at the same time
-- see the other collaborators modifications
+- see the other collaborators modifications.
 The users who are not authorized cannot not access the document."""
 MCI;Collaboration & communication;Collaborative editor;Seafile;Solution in test phase;Core;"""Possibility for a set of users users to : 
 - edit the same document at the same time
-- see the other collaborators modifications
+- see the other collaborators modifications.
 The users who are not authorized cannot not access the document."""
 UCA;Collaboration & communication;Collaborative editor;iParapheur;With signature;Core;"""Possibility for a set of users users to : 
 - edit the same document at the same time
-- see the other collaborators modifications
+- see the other collaborators modifications.
 The users who are not authorized cannot not access the document."""
 UniGe;Collaboration & communication;Conferencing;BBB;;Core;"""The users can attend video conferences with one or multiple attendees.
 The conference can be open to externals or limited to specific people."""
@@ -155,15 +164,15 @@ The conference can be open to externals or limited to specific people."""
 UCA;Collaboration & communication;Content management;Nuxeo;;Normal;"""This service aims to modernize the content management by : 
 - optimizing the entire information lifecycle
 - automating workflows  
-- provide content governance"""
+- provide content governance."""
 USE ;Collaboration & communication;Document management;NextCloud;Virtual hard disk for all university community members;Core;"""The users have a virtual hard disk, to store their documents.
-This is not a shared space."""
-MCI;Collaboration & communication;Email;Roundcube, exim;Mailsystem for faculty and student;Normal;All the users can communicate by e-mails.
-MCI;Collaboration & communication;Email;Exchange;Mailsystem for faculty and staff;Normal;All the users can communicate by e-mails.
-UniGe;Collaboration & communication;Email;Exchange;;Normal;All the users can communicate by e-mails.
-UCA;Collaboration & communication;Email;O365;;Normal;All the users can communicate by e-mails.
-USE ;Collaboration & communication;Email;MS-Exchange;e-mail service;Normal;All the users can communicate by e-mails.
-TUKE;Collaboration & communication;Email;O365;;Normal;All the users can communicate by e-mails.
+This service does not include shared spaces."""
+MCI;Collaboration & communication;Email;Roundcube, exim;Mailsystem for faculty and student;Normal;This service allows the the university members to communicate by emails.
+MCI;Collaboration & communication;Email;Exchange;Mailsystem for faculty and staff;Normal;This service allows the the university members to communicate by emails.
+UniGe;Collaboration & communication;Email;Exchange;;Normal;This service allows the the university members to communicate by emails.
+UCA;Collaboration & communication;Email;O365;;Normal;This service allows the the university members to communicate by emails.
+USE ;Collaboration & communication;Email;MS-Exchange;e-mail service;Normal;This service allows the the university members to communicate by emails.
+TUKE;Collaboration & communication;Email;O365;;Normal;This service allows the the university members to communicate by emails.
 MCI;Collaboration & communication;Files sharing;ACOnet;For huge files;Core;The files sharing is a specific service for the transfer of huge files.
 MCI;Collaboration & communication;Files sharing;Samba;For day to day use on windows;Core;The files sharing is a specific service for the transfer of huge files.
 USE ;Collaboration & communication;Files sharing;consigna.us.es;Self-developed software for big size file sharing;Core;The files sharing is a specific service for the transfer of huge files.
@@ -176,9 +185,10 @@ TUKE;Collaboration & communication;Internal documentation tool ;DocuWiki;;Normal
 The administration staff can enrich these documentations."""
 UniGe;Collaboration & communication;Mailing list manager;Sympa;;Normal;A mailing list manager facilitate the distribution of information to many internet users. Mailing lists are often used as a two-way method of discussion between interested parties, or a one-way dissemination of information where only selected individuals can make posts.
 TUKE;Collaboration & communication;Social networks;Mailing lists;;Core;The universities publish informations and promote throught the social networks : twitter, instragram, etc.
-MCI;Collaboration & communication;Source Control Management;Gitea;For tech departments;Normal;Software sources are stored and versioned to allow collaborative work of Software developers
-TUKE;Collaboration & communication;Source Control Management;GitLab;;Normal;Software sources are stored and versioned to allow collaborative work of Software developers
-UCA;Collaboration & communication;Ssender;AllmySMS;to send Sto communities;#N/A;#N/A
+MCI;Collaboration & communication;Source Control Management;Gitea;For tech departments;Normal;The softwares sources are stored and versioned to allow collaborative work of software developers
+TUKE;Collaboration & communication;Source Control Management;GitLab;;Normal;The softwares sources are stored and versioned to allow collaborative work of software developers
+UCA;Collaboration & communication;SMS sender;AllmySMS;to send SMS to communities;Normal;"""The SMS sender service allows to automatically send SMS to users.
+It is used to send SMS to the communities within the university."""
 UniGe;Collaboration & communication;Conferencing;Teams;;Core;"""The users can attend video conferences with one or multiple attendees.
 The conference can be open to externals or limited to specific people."""
 UniGe;Collaboration & communication;Conferencing;Zoom;;Core;"""The users can attend video conferences with one or multiple attendees.
@@ -186,35 +196,46 @@ The conference can be open to externals or limited to specific people."""
 MCI;Collaboration & communication;Workspace Management;Sakai;"""For faculty and staff
 Access to shared resources (wiki, etc)""";Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 UniGe;Collaboration & communication;Workspace Management;Sympa;;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 UniGe;Collaboration & communication;Workspace Management;Office 365;Teams, Sharepoint, OneDrive…;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 UCA;Collaboration & communication;Workspace Management;Sharepoint;;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 UCA;Collaboration & communication;Workspace Management;Office 365;OneDrive;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 USE ;Collaboration & communication;Workspace Management;Office 365;Onedrive, Teams, Sharepoint, Outlook, Forms, …;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
+In the workspace, they can share documents and access the shared resources."""
 TUKE;Collaboration & communication;Workspace Management;Office 365;;Core;"""The users can create workspaces and invite other users.
 They have the possibility to invite external users as well.
-In the workspace, they can share documents and access shared resources."""
-USE ;Community & campus;Create curriculum ;UXXI-AC;Faculties use the academic ERP to register their plan ;#N/A;#N/A
-TUKE;Community & campus;Create curriculum ;MAIS Portail;;#N/A;#N/A
-UniGe;Community & campus;Create curriculum ;Unige Webkit;Publish course offer;#N/A;#N/A
-MCI;Community & campus;Create curriculum ;MCI-Designer;Support internal management processes;#N/A;#N/A
-UCA;Community & campus;Create curriculum ;APOGEE;Old schooling application;#N/A;#N/A
-UCA;Community & campus;Create curriculum ;PEGASE;New schooling application;#N/A;#N/A
-MCI;Community & campus;Information;MCI Website;Events are announced at mci.edu ;#N/A;#N/A
+In the workspace, they can share documents and access the shared resources."""
+USE ;Campus & Community;Curriculum creation;UXXI-AC;Faculties use the academic ERP to register their plan ;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
+TUKE;Campus & Community;Curriculum creation;MAIS Portail;;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
+UniGe;Campus & Community;Curriculum creation;Unige Webkit;Publish course offer;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
+MCI;Campus & Community;Curriculum creation;MCI-Designer;Support internal management processes;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
+UCA;Campus & Community;Curriculum creation;APOGEE;Old schooling application;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
+UCA;Campus & Community;Curriculum creation;PEGASE;New schooling application;0;"""The universities administration need to design and specify the curriculum.
+They can set the description, the way the course is taught (online, on premise), who is teaching, etc.
+All these informations are then available for the students and for the professors on a dedicated platform."""
 UCA;Courses management;Planning;ADE;Time schedules and roobooking;Normal;The administration staff can manage the classes plannings : set a time and a place.
-MCI;Events management;Conference information;Sharepoint calendar;Sharepoint calendar managed by the department for Research and Development to inform about upcoming conferences & events;Important;Possibility to disseminate informations about the upcoming conferences : date, topic)
-TUKE;Events management;Conference information;Library IS;;Important;Possibility to disseminate informations about the upcoming conferences : date, topic)
+MCI;Events management;Conference information;Sharepoint calendar;Sharepoint calendar managed by the department for Research and Development to inform about upcoming conferences & events;Important;This service allows the dissemination of information about the upcoming conferences : date, topic, etc.
+TUKE;Events management;Conference information;Library IS;;Important;This service allows the dissemination of information about the upcoming conferences : date, topic, etc.
 UCA;Events management;Conference organization;ScienceConf;;Normal;"""The conferences organization covers several functionalities :
 - registrer to an upcoming conference and receive a confirmation
 - registration monitoring"""
@@ -226,12 +247,13 @@ USE ;Events management;Conference organization;Symposium (gestioneventos.us.es);
 - registrer to an upcoming conference and receive a confirmation
 - registration monitoring"""
 UCA;Events management;Conference resources;"""Web platform
-http://epi-revel.unice.fr/""";;Normal;"""The conferences organizer are able to upload the resources of the conference.
+http://epi-revel.unice.fr/""";;Normal;"""The conference organizers are able to upload the resources of the conference.
 The resources remain still be accessible after the conference."""
-TUKE;Events management;Conference resources;EPC system at University Library;System for publication registration;Normal;"""The conferences organizer are able to upload the resources of the conference.
+TUKE;Events management;Conference resources;EPC system at University Library;System for publication registration;Normal;"""The conference organizers are able to upload the resources of the conference.
 The resources remain still be accessible after the conference."""
 UCA;Exams;Diploma certification;CVTRUST;;Normal;The diplomas can be asserted by the employers thanks to the diploma certification.
-MCI;Exams;Information;Sakai;Sakai announcement with useful info for exam (log-in, time, date …);#N/A;#N/A
+MCI;Information;Information about exams;Sakai;Sakai announcement with useful info for exam (log-in, time, date …);0;"""This service allows the professors to set announcements with useful information about exams for their students, as the date and time.
+The students can view these information, receive reminders."""
 MCI;Exams;Online exams;Tcexam;"""Single-, multiple-choice, and open questions with extended audit trail 
 Notice : 
 Lecturers send exam questions (Excel) to assistants who then implement the content into exam tool.""";Core;"""The professors can prepare and plan online exams. It can be either visio exams, or 
@@ -254,27 +276,31 @@ TUKE;Exams;Online exams;Webex;oral exams;Core;"""The professors can prepare and 
 online QCM / open questions.
 The students can run exams online durnig the allocated time.
 The exams are rated online as well."""
-UniGe;Exams;Plagiarism detection;Compilatio;;#N/A;#N/A
+UniGe;Exams;Plagiarism detection;Compilatio;;0;The plagiarism detection service supports the professors in the assessment of the works of the students. It automatically compares the works with existing works to prevent plagiarism. 
 MCI;Exams;Results access;Sakai;All relevant information about courses, exam results etc. are announced on Sakai;Normal;"""The professors or the administration staff can anounce the results publication.
-The students can access to the results."""
+The students can access the results."""
 UCA;Exams;Results access;ENT;Digital Environnement Service of the student;Normal;"""The professors or the administration staff can anounce the results publication.
-The students can access to the results."""
+The students can access the results."""
 USE ;Exams;Results access;Sevius.us.es;Self-developed internal information platform;Normal;"""The professors or the administration staff can anounce the results publication.
-The students can access to the results."""
+The students can access the results."""
 TUKE;Exams;Results access;MAIS Portail;;Normal;"""The professors or the administration staff can anounce the results publication.
-The students can access to the results."""
-UniGe;Exams;Survey;LimeSurvey;;#N/A;#N/A
+The students can access the results."""
+UniGe;Collaboration & communication;Survey management;LimeSurvey;;0;"""This service includes :
+- the design of the survey : setting the questions and the type of response expected
+- the spreading of the survey : make it public or not, get a sharing link
+-  the results management : access the results details, export the results."""
 UCA;Exams;Conferencing;Zoom;UCA does not promote remote exams;Core;"""The users can attend video conferences with one or multiple attendees.
 The conference can be open to externals or limited to specific people."""
 USE ;GDPR;GDPR;gestionlopd.us.es;Software platform based on Redmine for GDPR management;Core;The GDPR service contains the solutions that exist to make sure that the system is GDPR compliant.
 USE ;GDPR;GDPR training;Blackboard Learn;For training;Normal;Training tools are available to educate the users about GDPR.
-MCI;Information;Access public information (curricula, etc.);Public website of the university;;#N/A;#N/A
-UCA;Information;Information about partners ;KSUP;;Core;The informations about the universities partners are accessible by everybody.
-UCA;Information;Information about partners ;Mobility Tool;;Core;The informations about the universities partners are accessible by everybody.
-TUKE;Information;Information about partners ;MAIS Portail;;Core;The informations about the universities partners are accessible by everybody.
-MCI;Learning  and teaching;Classes information ;selfservice portal (myMCI);Course calendar with all relevant appointments can be found on myMCI;#N/A;#N/A
-UniGe;Learning  and teaching;Classes information ;EasyAcademy ;Infos about classes for the students;#N/A;#N/A
-TUKE;Learning  and teaching;Equiped rooms;Broadcasting rooms;;#N/A;#N/A
+UCA;Information;Information about partners ;KSUP;;Core;The informations about the universities partners are entered by the university administration and available for everybody (internal and exaternal users).
+UCA;Information;Information about partners ;Mobility Tool;;Core;The informations about the universities partners are entered by the university administration and available for everybody (internal and exaternal users).
+TUKE;Information;Information about partners ;MAIS Portail;;Core;The informations about the universities partners are entered by the university administration and available for everybody (internal and exaternal users).
+MCI;Learning  and teaching;Information about the classes;selfservice portal (myMCI);Course calendar with all relevant appointments can be found on myMCI;0;The students and the professor need to access all the details about their classes, as the way the course is taught (online, on premise), who is teaching, the number of students enrolled, etc.
+UniGe;Learning  and teaching;Information about the classes;EasyAcademy ;Infos about classes for the students;0;The students and the professor need to access all the details about their classes, as the way the course is taught (online, on premise), who is teaching, the number of students enrolled, etc.
+TUKE;Learning  and teaching;Learning Management ;Broadcasting rooms;Special rooms with video conferencing equipments, touch screen and sound system;Core;"""The learning management systems support the learning process.
+The professors can share the courses materials, plan their courses, communicate with their students and make online presentations.
+The students have a perosnal space, they can access all the resources for the courses, ask questions, access the assignments."""
 MCI;Learning  and teaching;Learning Management ;Sakai;;Core;"""The learning management systems support the learning process.
 The professors can share the courses materials, plan their courses, communicate with their students and make online presentations.
 The students have a perosnal space, they can access all the resources for the courses, ask questions, access the assignments."""
@@ -295,120 +321,122 @@ The professors can share the courses materials, plan their courses, communicate 
 The students have a perosnal space, they can access all the resources for the courses, ask questions, access the assignments."""
 MCI;Learning  and teaching;Library;under construction;;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UCA;Learning  and teaching;MOOC platform;FUN;;Core;The MOOC platform is used to make open courses available.
 USE ;Learning  and teaching;MOOC platform;Blackboard Learn (in SaaS mode);For managing courses (content, evaluation, student communication, etc.) > synchronized with the Academic ERP ;Core;The MOOC platform is used to make open courses available.
 TUKE;Learning  and teaching;MOOC platform;Moodle;;Core;The MOOC platform is used to make open courses available.
 UniGe;Learning  and teaching;PDF annotations;Amanote;Currently Postfix + dovecot;Normal;"""The users can add notes on PDF files.
 This service is not collaborative."""
 UCA;Learning  and teaching;Planning;ADE;Planning and time schedules ;Normal;The administration staff can manage the classes plannings : set a time and a place.
-MCI;Learning  and teaching;Planning overview;Excel;;Normal;The users can review their planning.
-USE ;Learning  and teaching;Quality assurance and curricula monitoring ;logros.us.es;Quality assurance an curricula monitoring (self-develop);Normal;The quality assurance is based on insights (attendance to the classes, credits, credits earned, etc.).
-MCI;Learning  and teaching;Streaming;Vimeo.com;;#N/A;#N/A
-UCA;Learning  and teaching;Teaching Services;SGCE;We are testing a new tool to dispatch the teaching services according to the teachers’ wishes;Core;"""The teaching services support the teachers in the preparation of the courses.
-It also includes the dispatch of the teaching services."""
-UCA;Learning  and teaching;Teaching Services;OSE;Teaching services of the teachers are prepared with a tool called OSE. ;Core;"""The teaching services support the teachers in the preparation of the courses.
-It also includes the dispatch of the teaching services."""
-MCI;Network;Federated Wireless Network;Eduroam + freeradius;;#N/A;#N/A
-UniGe;Network;Federated Wireless Network;eduRoam;;#N/A;#N/A
-UCA;Network;Federated Wireless Network;eduRoam;;#N/A;#N/A
+MCI;Learning  and teaching;Planning overview;Excel;;Normal;The planning overview allows the users to review their personal planning.
+USE ;Learning  and teaching;Quality assurance and curricula monitoring ;logros.us.es;Quality assurance an curricula monitoring (self-develop);Normal;"""The quality assurance is based on insights (attendance to the classes, credits, credits earned, etc.).
+These insights are accessible for the administrayion staff."""
+MCI;Learning  and teaching;Video Streaming;Vimeo.com;;Normal;"""The video streaming is a method of viewing video without actually downloading the media files.
+The video streaming could be useful for the students to take their online courses and access any academic content in a video format."""
+UCA;Learning  and teaching;Teaching Services;SGCE;We are testing a new tool to dispatch the teaching services according to the teachers’ wishes;Core;"""The teaching services manages the hours of service (estimated and realized).
+It includes the dispatch of the teaching services according to the teachers wishes."""
+UCA;Learning  and teaching;Teaching Services;OSE;Teaching services of the teachers are prepared with a tool called OSE. ;Core;"""The teaching services manages the hours of service (estimated and realized).
+It includes the dispatch of the teaching services according to the teachers wishes."""
+MCI;Network;Federated Wireless Network;eduRoam;;0;"""The federated wireless network provides simple and secure connectivity from many hotspots across several countries and in different locations : campus, but also libraries, museum, coffee shops, etc. 
+The authentication is done by the user's home institution."""
+UniGe;Network;Federated Wireless Network;eduRoam;;0;"""The federated wireless network provides simple and secure connectivity from many hotspots across several countries and in different locations : campus, but also libraries, museum, coffee shops, etc. 
+The authentication is done by the user's home institution."""
+UCA;Network;Federated Wireless Network;eduRoam;;0;"""The federated wireless network provides simple and secure connectivity from many hotspots across several countries and in different locations : campus, but also libraries, museum, coffee shops, etc. 
+The authentication is done by the user's home institution."""
+USE ;Network;Federated Wireless Network;eduRoam;;;"""The federated wireless network provides simple and secure connectivity from many hotspots across several countries and in different locations : campus, but also libraries, museum, coffee shops, etc. 
+The authentication is done by the user's home institution."""
 MCI;Network;VPN;OpenVPN?;VPN available to staff;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 UniGe;Network;VPN;Fortinet?;Securize connection;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 UCA;Network;VPN;"""Cisco ASA
 Anyway VPN""";;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 USE ;Network;VPN;OpenVPN;VPN services to professor;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 USE ;Network;VPN;F5 VPN;VPN services to IT providers;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 TUKE;Network;VPN;Checkpoint VPN;;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
 TUKE;Network;VPN;Site-to-Site VPN;Interconnect securely partner-s university networks;Core;"""Virtual Private Network.
-The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality."""
-UniGe;Network;Web remote access ;UnigeProxy;;#N/A;#N/A
-USE ;Network;Wired and wifi infrastructure ;Cisco and Huawei router;Wired an Wifi infrastructure ;Normal;This service defines how people can be connected to the network of the university.
-USE ;Personal Page ;Personal page ;Sevius.us.es;Self-developed internal information platform providing access to personal and academic information;Core;The users have their personal page where they can access personal and academic informations.
+The VPN filters the data flows. It secures the connection and ensures a high level of confidentiality.
+Different VPN can be used in function of the usage (professors, IT students, etc.)."""
+UniGe;Network;Web remote access;UnigeProxy;;0;The web remote access allows the authorized users to consulte reserved Electronic Resources from any other location outside the University network.
+USE ;Personal Page ;Personal page ;Sevius.us.es;Self-developed internal information platform providing access to personal and academic information;Core;The users have their personal page where they can access personal and academic information.
 MCI;Publications;Library;MCI library;Internal library ;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 MCI;Publications;Library;EBSCOhost;Provides search across various publication databases ;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 MCI;Publications;Library;OBVSG Primo;Enable search for almost all literature available in Austrian Academic Libraries;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UniGe;Publications;Library;Unopertutto;;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UniGe;Publications;Library;PandoraCampus;manuals and textbooks for digital lending;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UniGe;Publications;Library;IRIS;UniGe publication repository;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UCA;Publications;Library;HAL;;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UCA;Publications;Library;Scopus;;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 UCA;Publications;Library;Ezproxy;EZproxy allows libraries to deliver e-content to users simply, effectively, and securely no matter where or when they’re searching;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 USE ;Publications;Library;bib.us.es;It manages subscription;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 USE ;Publications;Library;www.fecyt.es;Access to researcher to almost all scientific literature ;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 USE ;Publications;Library;bibliometria.us.es/prisma;It collects and publishes research publications from Scopus, Research Gate, Google Scholarof all USE researchers;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 TUKE;Publications;Library;Project NISPEZ;National Information System for Support Research and Development in Slovakia;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 TUKE;Publications;Library;Full-text databases;ACM Digital Library, IEEE Xplore Digital Library, Science Direct, Springer LINK, Knovel Library, Wiley Online Library;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
+Some of the universities have their own library. They use external open libraries as well."""
 TUKE;Publications;Library;Bibliographic scientometric databases;Web of Science, Scopus access to the GALE publishing house's databases;Important;"""The researchers can access research repositories.
 The students, professors and researchers can access databases to find publications.
-Some of the universities have their own library.
-They use external open libraries as well."""
-UCA;Publications;Publication repository ;HAL;National open archive where authors can deposit scholarly documents from all academic fields.;Important;The researchers can submit their publications in the publication repositories.
-USE ;Publications;Publication repository ;idus.us.es;Public scientific publication repository;Important;The researchers can submit their publications in the publication repositories.
-TUKE;Publications;Publication repository ;Publons;Peer review platform for teachers and researchers ;Important;The researchers can submit their publications in the publication repositories.
-MCI;Publications;Search engine;EDS (EBSCO Discovery Service);;#N/A;#N/A
-MCI;Publications;Search engine;Google scholar;;#N/A;#N/A
+Some of the universities have their own library. They use external open libraries as well."""
+UCA;Publications;Publication repository ;HAL;National open archive where authors can deposit scholarly documents from all academic fields.;Important;"""The researchers can submit their publications from all academics fields in the publication repositories.
+This service includes the peer reviews platforms as well."""
+USE ;Publications;Publication repository ;idus.us.es;Public scientific publication repository;Important;"""The researchers can submit their publications from all academics fields in the publication repositories.
+This service includes the peer reviews platforms as well."""
+TUKE;Publications;Publication repository ;Publons;Peer review platform for teachers and researchers ;Important;"""The researchers can submit their publications from all academics fields in the publication repositories.
+This service includes the peer reviews platforms as well."""
+MCI;Publications;Search engine;EDS (EBSCO Discovery Service);;0;"""The search engines provide search across various publication databases.
+The users can thus access publucations from different databases, through one research."""
+MCI;Publications;Search engine;Google scholar;;0;"""The search engines provide search across various publication databases.
+The users can thus access publucations from different databases, through one research."""
 UniGe;Resources management;Cloud computational resources;Internal / external cloud services;"""- IaaS PaaS SaaS platform
-- Also Cloud based services (Azure, GCP, AWS)""";Normal;Access to computational resources to run processing jobs.
-UniGe;Resources management;Cloud computational resources;Microsoft 365 Unige Cloud;;Normal;Access to computational resources to run processing jobs.
-USE ;Resources management;Cloud computational resources;IaaS/ PaaS;;Normal;Access to computational resources to run processing jobs.
-TUKE;Resources management;Cloud computational resources;Private cloud;PaaS and IaaS ;Normal;Access to computational resources to run processing jobs.
-TUKE;Resources management;Cloud computational resources;Public cloud;;Normal;Access to computational resources to run processing jobs.
-MCI;Resources management;External computational resources;JupyterHub;;Normal;Access to external computational resources to run processing jobs.
-MCI;Resources management;External computational resources;VSC-4;Vienna Scientific Cluster is a Collaboration & communication of several Austrian universities that provides supercomputer resources;Normal;Access to external computational resources to run processing jobs.
-UniGe;Resources management;External computational resources;HPC Centrers;Co-working local-regional agreements;Normal;Access to external computational resources to run processing jobs.
-UCA;Resources management;External computational resources;OPAL project convention (Ecole des Mines, INRIA, MSI, OCA);;Normal;Access to external computational resources to run processing jobs.
-USE ;Resources management;External computational resources;GEANT-OCRE;Researchers can purchase GEANT-OCRE resources.;Normal;Access to external computational resources to run processing jobs.
-USE ;Resources management;External computational resources;CICA (Andalusian Scientific Informatics Center) ;;Normal;Access to external computational resources to run processing jobs.
-TUKE;Resources management;External computational resources;Supercomputer center;;Normal;Access to external computational resources to run processing jobs.
+- Also Cloud based services (Azure, GCP, AWS)""";Normal;This service provides access to cloud computational resources to run processing jobs.
+UniGe;Resources management;Cloud computational resources;Microsoft 365 Unige Cloud;;Normal;This service provides access to cloud computational resources to run processing jobs.
+USE ;Resources management;Cloud computational resources;IaaS/ PaaS;;Normal;This service provides access to cloud computational resources to run processing jobs.
+TUKE;Resources management;Cloud computational resources;Private cloud;PaaS and IaaS ;Normal;This service provides access to cloud computational resources to run processing jobs.
+TUKE;Resources management;Cloud computational resources;Public cloud;;Normal;This service provides access to cloud computational resources to run processing jobs.
+MCI;Resources management;External computational resources;JupyterHub;;Normal;This service provides access to external computational resources to run processing jobs.
+MCI;Resources management;External computational resources;VSC-4;Vienna Scientific Cluster is a Collaboration & communication of several Austrian universities that provides supercomputer resources;Normal;This service provides access to external computational resources to run processing jobs.
+UniGe;Resources management;External computational resources;HPC Centrers;Co-working local-regional agreements;Normal;This service provides access to external computational resources to run processing jobs.
+UCA;Resources management;External computational resources;OPAL project convention (Ecole des Mines, INRIA, MSI, OCA);;Normal;This service provides access to external computational resources to run processing jobs.
+USE ;Resources management;External computational resources;GEANT-OCRE;Researchers can purchase GEANT-OCRE resources.;Normal;This service provides access to external computational resources to run processing jobs.
+USE ;Resources management;External computational resources;CICA (Andalusian Scientific Informatics Center) ;;Normal;This service provides access to external computational resources to run processing jobs.
+TUKE;Resources management;External computational resources;Supercomputer center;;Normal;This service provides access to external computational resources to run processing jobs.
 UCA;Resources management;Material resources booking ;Visual Planning;To book the technological platform of IMREDD;Important;The researchers and PhD student can view the available slots for the equipments and book an equipment on a specific time.
 UCA;Resources management;Material resources booking ;ADE;To book the medical experiments rooof TIRO MATO;Important;The researchers and PhD student can view the available slots for the equipments and book an equipment on a specific time.
 USE ;Resources management;Material resources booking ;citius.us.es;USE share facilities are published on Research Services web site ;Important;The researchers and PhD student can view the available slots for the equipments and book an equipment on a specific time.
@@ -419,26 +447,32 @@ UniGe;Resources management;Procurement ;"""
 Sintel""";National centralized purchasing abd e-procurement;Normal;The procurement service allows the users to purchase online end request material acquisition, for the research projects.
 UniGe;Resources management;Procurement ;U-GOV;Financial ERP;Normal;The procurement service allows the users to purchase online end request material acquisition, for the research projects.
 USE ;Resources management;Procurement ;UXXI-EC;Financial module - ERP : Request material acquisition for research ;Normal;The procurement service allows the users to purchase online end request material acquisition, for the research projects.
-TUKE;Resources management;Software resources;Matlab TAH;;Normal;Researchers should be able to acquire software licenses in the scope of their researchs
-TUKE;Resources management;Software resources;Ansys;;Normal;Researchers should be able to acquire software licenses in the scope of their researchs
+TUKE;Resources management;Software resources;Matlab TAH;;Normal;Researchers should be able to acquire software licenses in the scope of their researchs.
+TUKE;Resources management;Software resources;Ansys;;Normal;Researchers should be able to acquire software licenses in the scope of their researchs.
 MCI;Support;Catalogue;"""Web platform
-www.mci.edu/en/university/services""";;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
+www.mci.edu/en/university/services""";;Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
 UniGe;Support;Catalogue;"""web platform
-unige.it / cedia.unige.it""";;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
+unige.it / cedia.unige.it""";;Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
 UCA;Support;Catalogue;"""Web platform
-univ-cotedazur.fr""";;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
-UCA;Support;Catalogue;GLPI;;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
-USE ;Support;Catalogue;sic.us.es web site;Services catalogue and documentation;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
-TUKE;Support;Catalogue;"""web platforms
-nastavenia.tuke.sk""";Service catalog ;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
-TUKE;Support;Catalogue;"""web platforms
-uvt.tuke.sk""";Information's about IT services;Core;The users can access the catalogue of services of the universites to find the liste of available services, and informations about these services.
-MCI;Support;IT Support;"""Helpdesk platform
-helpdesk.mci.edu""";"""Service catalog
-FAQ""";#N/A;#N/A
-UniGe;Support;Ticket system;OTRS;;Core;Ticket systems are used by the users whenever they have a difficulty with the services.
-USE ;Support;Ticket system;Remedy (sos.us.es platform);ServiceDesk base on Remedy ;Core;Ticket systems are used by the users whenever they have a difficulty with the services.
+univ-cotedazur.fr""";;Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+UCA;Support;Catalogue;GLPI;;Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+USE ;Support;Catalogue;University web platform;"""website : sic.us.es
+Services catalogue and documentation""";Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+TUKE;Support;Catalogue;University web platform;"""website : nastavenia.tuke.sk
+Service catalog """;Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+TUKE;Support;Catalogue;University web platform;"""website : uvt.tuke.sk
+Information's about IT services""";Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+MCI;Support;Catalogue;University web platform;"""website : helpdesk.mci.edu
+Service catalog and FAQ""";Core;The users can access the catalogue of services of the universites to find the list of available services, and informations about these services.
+UniGe;Support;Ticket system;OTRS;;Core;"""The ticket systems are used by the users whenever they have a difficulty with the services.
+The user raise a ticket about an issue or a question; the support receive and process the ticket to resolve the issue.
+The list of issues are manages and maintened through this service """
+USE ;Support;Ticket system;Remedy (sos.us.es platform);ServiceDesk base on Remedy ;Core;"""The ticket systems are used by the users whenever they have a difficulty with the services.
+The user raise a ticket about an issue or a question; the support receive and process the ticket to resolve the issue.
+The list of issues are manages and maintened through this service """
 TUKE;Support;Ticket system;"""web platform
-helpdesk.tuke.sk""";;Core;Ticket systems are used by the users whenever they have a difficulty with the services.
-TUKE;System Security;Email SPAM filtering;Cisco ESA;;Normal;All mails are assessed to be categorized as SPAM or non-SPAM
-TUKE;System Security;Monitoring;CheckMK;;Core;ICT engineers can monitor the smooth execution of ICT services
+helpdesk.tuke.sk""";;Core;"""The ticket systems are used by the users whenever they have a difficulty with the services.
+The user raise a ticket about an issue or a question; the support receive and process the ticket to resolve the issue.
+The list of issues are manages and maintened through this service """
+TUKE;System Security;Email SPAM filtering;Cisco ESA;;Normal;All the emails are assessed to be automatically categorized as SPAM or non-SPAM.
+TUKE;System Security;Monitoring;CheckMK;;Core;ICT engineers can monitor the smooth execution of ICT services.

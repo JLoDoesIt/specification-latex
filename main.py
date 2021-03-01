@@ -1,9 +1,10 @@
-import collections
 from collections import defaultdict
 
 import pandas as pd
 from pylatex import Document, Section, NewPage, Command, Subsection, Subsubsection, Tabular, NewLine
-from pylatex.utils import bold, NoEscape
+from pylatex.utils import NoEscape
+
+from specification import SpecificationLine, CurrentCharacteristicBloc
 
 
 def create_latex_specification(
@@ -17,129 +18,98 @@ def create_latex_specification(
         i_title='Specification',
         i_authors='Author NAMES',
         i_file_name='specification'):
-    finest_section_level = i_section_column if i_sub_section_column is None else (
-        i_sub_section_column if i_sub_sub_section_column is None else i_sub_sub_section_column)
     a_ranking_columns = i_ranking_columns if i_ranking_columns is not None else [i_section_column, i_sub_section_column]
     geometry_options = {}
-    doc = Document(geometry_options=geometry_options)
-    add_first_page(doc, i_title, i_authors)
-    doc.append(NoEscape(r'\tableofcontents'))
-    doc.append(NewPage())
+    a_doc = Document(geometry_options=geometry_options)
+    add_first_page(a_doc, i_title, i_authors)
+    a_doc.append(NoEscape(r'\tableofcontents'))
+    a_doc.append(NewPage())
     i_feature_list.sort_values(by=a_ranking_columns, inplace=True)
     a_sections_dict = defaultdict(lambda: defaultdict(list))
+    a_characteristic_bloc = CurrentCharacteristicBloc()
     for it_feature_row in i_feature_list.itertuples():
-        if not pd.isna(getattr(it_feature_row, finest_section_level)):
-            a_section_name = get_column_content_for_row(i_section_column, it_feature_row)
-            a_sub_section_name = get_column_content_for_row(i_sub_section_column,
-                                                            it_feature_row) if i_sub_section_column is not None else None
-            a_sub_sub_section_name = get_column_content_for_row(i_sub_sub_section_column,
-                                                                it_feature_row) if i_sub_sub_section_column is not None else None
-            a_description = get_column_content_for_row(i_description_column, it_feature_row)
-            a_characteristics = collections.OrderedDict(
-                {it_char_name: get_column_content_for_row(it_char_name, it_feature_row) for it_char_name
-                 in i_characteristic_columns})
-            # print(an_epic + ' - ' + a_description)
-            create_section(a_section_name, a_sections_dict, a_characteristics, a_description,
-                           a_sub_section_name, doc, a_sub_sub_section_name,
-                           i_description_column)
-    doc.generate_pdf(i_file_name, clean_tex=False)
+        a_specification_line = SpecificationLine(
+            i_section_column,
+            i_sub_section_column,
+            i_sub_sub_section_column,
+            i_description_column,
+            i_characteristic_columns,
+            it_feature_row
+        )
+        create_section(a_doc, a_specification_line, a_sections_dict, a_characteristic_bloc)
+    a_doc.generate_pdf(i_file_name, clean_tex=False)
 
 
-def create_section(i_section_name, io_sections_dict, i_characteristics, i_description,
-                   i_sub_section_name, io_doc, i_sub_sub_section_name, i_description_column):
-    if i_section_name not in io_sections_dict:
-        with io_doc.create(Section(i_section_name)):
-            fill_section(i_characteristics, i_description, i_section_name, i_sub_section_name,
-                         i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column)
+def create_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    if i_specification_line.has_section():
+        if i_specification_line.section not in io_sections_dict:
+            with io_doc.create(Section(i_specification_line.section)):
+                fill_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
+        else:
+            fill_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
+
+
+def fill_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    if i_specification_line.has_sub_section():
+        create_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
     else:
-        fill_section(i_characteristics, i_description, i_section_name, i_sub_section_name,
-                     i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column)
+        fill_paragraph(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
 
 
-def fill_section(i_characteristics, i_description, i_section_name, i_sub_section_name,
-                 i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column):
-    if i_sub_section_name is not None:
-        create_sub_section(i_section_name, io_sections_dict, i_characteristics,
-                           i_description,
-                           i_sub_section_name, io_doc, i_sub_sub_section_name,
-                           i_description_column)
+def create_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    if i_specification_line.sub_section not in io_sections_dict[i_specification_line.section]:
+        with io_doc.create(Subsection(i_specification_line.sub_section)):
+            fill_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
     else:
-        fill_paragraph(i_description, i_sub_section_name, io_doc,
-                       i_characteristics, io_sections_dict,
-                       i_section_name, i_sub_sub_section_name, i_description_column
-                       )
+        fill_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
 
 
-def create_sub_section(i_section_name, io_sections_dict, i_characteristics, i_description,
-                       i_sub_section_name, io_doc, i_sub_sub_section_name,
-                       i_description_column):
-    if i_sub_section_name not in io_sections_dict[i_section_name]:
-        with io_doc.create(Subsection(i_sub_section_name)):
-            fill_sub_section(i_characteristics, i_description, i_section_name,
-                             i_sub_section_name, i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column)
+def fill_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    if i_specification_line.has_sub_sub_section():
+        create_sub_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
     else:
-        fill_sub_section(i_characteristics, i_description, i_section_name,
-                         i_sub_section_name, i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column)
+        fill_paragraph(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
 
 
-def fill_sub_section(i_characteristics, i_description, i_section_name, i_sub_section_name,
-                     i_sub_sub_section_name, io_doc, io_sections_dict, i_description_column):
-    if i_sub_sub_section_name is not None:
-        create_sub_sub_section(i_section_name, io_sections_dict, i_characteristics, i_description,
-                               i_sub_section_name, io_doc, i_sub_sub_section_name,
-                               i_description_column)
+def create_sub_sub_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    if i_specification_line.sub_sub_section not in io_sections_dict[i_specification_line.section][
+        i_specification_line.sub_section]:
+        with io_doc.create(Subsubsection(i_specification_line.sub_sub_section)):
+            fill_paragraph(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
     else:
-        fill_paragraph(i_description, i_sub_section_name, io_doc,
-                       i_characteristics, io_sections_dict,
-                       i_section_name, i_sub_sub_section_name, i_description_column
-                       )
+        fill_paragraph(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc)
 
 
-def create_sub_sub_section(i_section_name, io_sections_dict, i_characteristics, i_description,
-                           i_sub_section_name, io_doc, i_sub_sub_section_name,
-                           i_description_column):
-    if i_sub_sub_section_name not in io_sections_dict[i_section_name][i_sub_section_name]:
-        with io_doc.create(Subsubsection(i_sub_sub_section_name)):
-            fill_paragraph(i_description, i_sub_section_name, io_doc,
-                           i_characteristics, io_sections_dict,
-                           i_section_name, i_sub_sub_section_name, i_description_column)
+def fill_paragraph(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
+    should_add_description = True
+    if i_specification_line.has_sub_sub_section() and i_specification_line.sub_sub_section not in \
+            io_sections_dict[i_specification_line.section][i_specification_line.sub_section]:
+        io_sections_dict[i_specification_line.section][i_specification_line.sub_section].append(
+            i_specification_line.sub_sub_section)
+    elif i_specification_line.has_sub_section() and i_specification_line.sub_section not in io_sections_dict[
+        i_specification_line.section]:
+        io_sections_dict[i_specification_line.section][i_specification_line.sub_section] = []
+    elif i_specification_line.has_section() and i_specification_line.section not in io_sections_dict:
+        io_sections_dict[i_specification_line.section] = {}
     else:
-        fill_paragraph(i_description, i_sub_section_name, io_doc,
-                       i_characteristics, io_sections_dict,
-                       i_section_name, i_sub_sub_section_name, i_description_column)
-
-
-def fill_paragraph(i_description, i_sub_section_name, io_doc,
-                   i_characteristics, io_sections_dict, i_section_name, i_sub_sub_section_name, i_description_column):
-    should_add_description = False
-    if i_sub_section_name is not None:
-        if i_sub_sub_section_name is not None:
-            if i_sub_sub_section_name not in io_sections_dict[i_section_name][i_sub_section_name]:
-                io_sections_dict[i_section_name][i_sub_section_name].append(i_sub_sub_section_name)
-                should_add_description = True
-        elif i_sub_section_name not in io_sections_dict[i_section_name]:
-            io_sections_dict[i_section_name][i_sub_section_name] = []
-            should_add_description = True
-    elif i_section_name not in io_sections_dict:
-        io_sections_dict[i_section_name] = {}
-        should_add_description = True
+        should_add_description = False
     if should_add_description:
-        if i_description_column is not None:
-            io_doc.append(i_description)
+        io_characteristic_bloc.bloc = None
+        if i_specification_line.has_description():
+            io_doc.append(i_specification_line.description)
             io_doc.append(NewLine())
-    if len(i_characteristics) > 0:
-        with io_doc.create(Tabular('|'+'c|'*len(i_characteristics))) as table:
-            table.add_hline()
-            table.add_row(i_characteristics.keys(), color='lightgray')
-            table.add_hline()
-            table.add_row(i_characteristics.values())
-            table.add_hline()
-        io_doc.append(NewLine())
-
-
-def get_column_content_for_row(i_column_name, i_row):
-    return getattr(i_row, i_column_name) if not pd.isna(
-        getattr(i_row, i_column_name)) else 'No ' + i_column_name
+    if i_specification_line.has_characteristics():
+        if io_characteristic_bloc.bloc is None:
+            with io_doc.create(Tabular('|' + 'c|' * len(i_specification_line.characteristics))) as table:
+                io_characteristic_bloc.bloc = table
+                table.add_hline()
+                table.add_row(i_specification_line.characteristics.keys(), color='lightgray')
+                table.add_hline()
+                table.add_row(i_specification_line.characteristics.values())
+                table.add_hline()
+        else:
+            io_characteristic_bloc.bloc.add_row(i_specification_line.characteristics.values())
+            io_characteristic_bloc.bloc.add_hline()
 
 
 def add_first_page(io_doc, i_title, i_authors):
