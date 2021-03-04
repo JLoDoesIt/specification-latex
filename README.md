@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![CeCILL License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -156,7 +156,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [CeCILL C License](https://cecill.info/licences/Licence_CeCILL-C_V1-en.html): if you improve, push your improvements under the same license
 
 
 <!-- CONTACT -->
@@ -181,7 +181,7 @@ JLo - [@JLo_IT](https://twitter.com/JLo_IT)
 [issues-shield]: https://img.shields.io/github/issues/JLoDoesIt/specification-latex.svg?style=for-the-badge
 [issues-url]: https://github.com/JLoDoesIt/specification-latex/issues
 [license-shield]: https://img.shields.io/github/license/JLoDoesIt/specification-latex.svg?style=for-the-badge
-[license-url]: https://github.com/JLoDoesIt/specification-latex/blob/master/LICENSE.txt
+[license-url]: https://cecill.info/licences/Licence_CeCILL-C_V1-en.html
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeanloic-cavazza/
 [product-screenshot]: images/screenshot.png
