@@ -13,10 +13,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/JLoDoesIt/specification-latex">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Table2Tex logo" height="80">
   </a>
 
-  <h3 align="center">Generate Specification from Table (CSV, Excel)</h3>
+  <h3 align="center">Table2Tex - Generate Specifications from Tables (CSV, Excel)</h3>
 
   <p align="center">
     Stop writing documents from scratch when you already did the structuration work under a table format.
@@ -139,6 +139,7 @@ Files will be generated in the main folder
 
 <!-- ROADMAP -->
 ## Roadmap
+Initial work was conducted to serve the purpose of specifying the digital platform for [Ulysseus European University](https://ulysseus.eu).
 
 See the [open issues](https://github.com/JLoDoesIt/specification-latex/issues) for a list of proposed features (and known issues).
 
