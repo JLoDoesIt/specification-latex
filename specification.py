@@ -1,6 +1,9 @@
 from collections import OrderedDict
+from enum import Enum
 
 import pandas as pd
+from pylatex import LongTable, NewLine
+from pylatex.utils import bold
 
 
 def get_column_content_for_row(i_column_name, i_row):
@@ -8,9 +11,51 @@ def get_column_content_for_row(i_column_name, i_row):
         getattr(i_row, i_column_name))) else None
 
 
-class CurrentCharacteristicBloc:
-    def __init__(self):
+class CharacteristicStyle(Enum):
+    TABLE = 'table'
+    INLINE = 'inline'
+
+
+class CharacteristicPosition(Enum):
+    BEFORE = 'before'
+    AFTER = 'after'
+
+
+class CharacteristicBloc:
+    def __init__(self, i_style=CharacteristicStyle.TABLE, i_position=CharacteristicPosition.AFTER):
         self.bloc = None
+        self.style = i_style
+        self.position = i_position
+        self.characteristic_names = []
+        self.characteristic_values = []
+
+    def add_characteristics(self, i_characteristics_dict):
+        if len(self.characteristic_names)==0:
+            self.characteristic_names = [*i_characteristics_dict.keys()]
+        self.characteristic_values.append([i_characteristics_dict[it_key] for it_key in self.characteristic_names])
+
+    def write_in_bloc(self):
+        if self.bloc is not None:
+            if self.style == CharacteristicStyle.TABLE:
+                with self.bloc.create(LongTable('|' + 'c|' * len(self.characteristic_names))) as table:
+                    table.add_hline()
+                    table.add_row(self.characteristic_names, color='lightgray')
+                    table.add_hline()
+                    for it_characteristic_values in self.characteristic_values:
+                        table.add_row(it_characteristic_values)
+                        table.add_hline()
+            else:
+                for it_index in range(len(self.characteristic_names)):
+                    text_list = [",".join(it_list) for it_list in zip(*self.characteristic_values)]
+                    if self.position == CharacteristicPosition.AFTER:
+                        self.bloc.append(bold(":".join([self.characteristic_names[it_index], text_list[it_index]])))
+                        self.bloc.append(NewLine())
+                    else:
+                        self.bloc.insert(2*it_index, bold(":".join([self.characteristic_names[it_index], text_list[it_index]])))
+                        self.bloc.insert(2*it_index+1, NewLine())
+            self.bloc = None
+            self.characteristic_names = []
+            self.characteristic_values = []
 
 
 class SpecificationLine:
