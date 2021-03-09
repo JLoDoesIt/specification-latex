@@ -125,7 +125,7 @@ if __name__ == '__main__':
     create_latex_specification(
         df,
         i_title='Ulysseus Digital Platform Specification',
-        i_authors='Candice OUDOT, Mathilde La Plaze, Jean-Loic CAVAZZA',
+        i_authors='Université Côte d\'Azure & Accenture',
         i_file_name='Functional specification',
         i_section_column="Service",
         i_sub_section_column="Epic",
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     create_latex_specification(
         df,
         i_title='Ulysseus Digital Platform Specification - by Work Package',
-        i_authors='Candice OUDOT, Mathilde La Plaze, Jean-Loic CAVAZZA',
+        i_authors='Université Côte d\'Azure & Accenture',
         i_file_name='Functional specification - by WP',
         i_section_column="WP",
         i_sub_section_column="Service",
@@ -149,7 +149,7 @@ if __name__ == '__main__':
     create_latex_specification(
         df_tech,
         i_title='Ulysseus Community Technical Solutions',
-        i_authors='Candice OUDOT, Mathilde La Plaze, Jean-Loic CAVAZZA',
+        i_authors='Université Côte d\'Azure & Accenture',
         i_file_name='Technical solutions',
         i_section_column="Theme",
         i_sub_section_column="Service",
