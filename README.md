@@ -106,7 +106,10 @@ tlmgr update --self --all
   brew install basictex
   tlmgr update --self --all
   ```
-  3. Restart terminal
+  3. Install MacTex (https://www.tug.org/mactex/mactex-download.html)
+
+  4. Restart terminal
+
 ### Installation
 
 1. Clone the repo
