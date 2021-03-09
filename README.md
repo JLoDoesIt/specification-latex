@@ -132,9 +132,47 @@ You're done !
 Just run the main program
 ```sh
 source venv/bin/activate
-python main.py
+python main.py --default
 ```
-Files will be generated in the main folder
+Default files will be generated in the main folder
+```sh
+> python main.py --help
+usage: main.py [-h] [--default] [--title TITLE] [--author AUTHOR] [--pdffile PDFFILE] [--csvfile CSVFILE] [--separator SEPARATOR]
+               [--section SECTION] [--subsection SUBSECTION] [--subsubsection SUBSUBSECTION] [--description DESCRIPTION]
+               [--characteristics CHARACTERISTICS] [--ranking RANKING] [--characstyle {table,inline}]
+               [--characposition {before,after}]
+               program
+
+Convert CSV files to textual structured document using PyTex
+
+positional arguments:
+  program               Default program argument in case files is called from Python executable
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --default             Specify that you want default parameters
+  --title TITLE         Specify the title of your document on the first page
+  --author AUTHOR       Specify the authoring you wish to make appear on the first page
+  --pdffile PDFFILE     Specify the name of the tex/pdf file you want to save to
+  --csvfile CSVFILE     Specify the name of the csv file you want to parse from
+  --separator SEPARATOR
+                        Define the separator of the CSV file (default to ";")
+  --section SECTION     Specify the header of the column you want to use for sections in your document
+  --subsection SUBSECTION
+                        Specify the header of the column you want to use for subsections in your document
+  --subsubsection SUBSUBSECTION
+                        Specify the header of the column you want to use for subsubsection in your document
+  --description DESCRIPTION
+                        Specify the header of the column you want to use to add descriptions in your document
+  --characteristics CHARACTERISTICS
+                        Specify the slash (/) separated headers of the columns you want to use for characteristics in your document
+  --ranking RANKING     Specify the slash (/) separated headers of the columns you want to use for ranking in your document
+  --characstyle {table,inline}
+  --characposition {before,after}
+
+Now, let's have specify freely !
+```
+Will give you access to all command line options
 
 
 <!-- ROADMAP -->
