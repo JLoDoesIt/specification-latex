@@ -30,7 +30,7 @@ class CharacteristicBloc:
         self.characteristic_values = []
 
     def add_characteristics(self, i_characteristics_dict):
-        if len(self.characteristic_names)==0:
+        if len(self.characteristic_names) == 0:
             self.characteristic_names = [*i_characteristics_dict.keys()]
         self.characteristic_values.append([i_characteristics_dict[it_key] for it_key in self.characteristic_names])
 
@@ -51,8 +51,9 @@ class CharacteristicBloc:
                         self.bloc.append(bold(":".join([self.characteristic_names[it_index], text_list[it_index]])))
                         self.bloc.append(NewLine())
                     else:
-                        self.bloc.insert(2*it_index, bold(":".join([self.characteristic_names[it_index], text_list[it_index]])))
-                        self.bloc.insert(2*it_index+1, NewLine())
+                        self.bloc.insert(2 * it_index,
+                                         bold(":".join([self.characteristic_names[it_index], text_list[it_index]])))
+                        self.bloc.insert(2 * it_index + 1, NewLine())
             self.bloc = None
             self.characteristic_names = []
             self.characteristic_values = []

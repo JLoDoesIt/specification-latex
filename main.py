@@ -3,8 +3,8 @@ import sys
 from collections import defaultdict
 
 import pandas as pd
-from pylatex import Document, Section, NewPage, Command, Subsection, Subsubsection, Tabular, NewLine, LongTable
-from pylatex.utils import NoEscape, bold
+from pylatex import Document, Section, NewPage, Command, Subsection, Subsubsection, NewLine
+from pylatex.utils import NoEscape
 
 from specification import SpecificationLine, CharacteristicBloc, CharacteristicStyle, CharacteristicPosition
 
@@ -48,16 +48,16 @@ def create_latex_specification(
 
 
 def get_ranking_columns(i_ranking_columns, i_section_column, i_sub_section_column, i_sub_sub_section_column):
-    a_ranking_columns = []
+    r_ranking_columns = []
     if i_ranking_columns is not None and len(i_ranking_columns) > 0 and i_ranking_columns[0] != '':
-        a_ranking_columns = i_ranking_columns
+        r_ranking_columns = i_ranking_columns
     elif i_section_column is not None:
-        a_ranking_columns.append(i_section_column)
+        r_ranking_columns.append(i_section_column)
         if i_sub_section_column is not None:
-            a_ranking_columns.append(i_sub_section_column)
+            r_ranking_columns.append(i_sub_section_column)
             if i_sub_sub_section_column is not None:
-                a_ranking_columns.append(i_sub_sub_section_column)
-    return a_ranking_columns
+                r_ranking_columns.append(i_sub_sub_section_column)
+    return r_ranking_columns
 
 
 def create_section(io_doc, i_specification_line, io_sections_dict, io_characteristic_bloc):
